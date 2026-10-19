@@ -45,12 +45,12 @@
       };
 
       $ur_services_menu = [
-        ['label' => 'Residential Roof Replacement', 'label_es' => 'Reemplazo de Techo Residencial',            'link' => '/services/residential-roof-replacement'],
-        ['label' => 'Storm & Hail Damage Repair',    'label_es' => 'Reparación de Daños por Tormenta y Granizo', 'link' => '/services/storm-hail-damage-repair'],
-        ['label' => 'Roof Maintenance & Inspections','label_es' => 'Mantenimiento e Inspecciones de Techo',      'link' => '/services/roof-maintenance-inspections'],
+        ['label' => 'Residential Roof Replacement', 'label_es' => 'Reemplazo de Techo Residencial',            'label_vi' => 'Thay Mái Nhà Ở',                  'link' => '/services/residential-roof-replacement'],
+        ['label' => 'Storm & Hail Damage Repair',    'label_es' => 'Reparación de Daños por Tormenta y Granizo', 'label_vi' => 'Sửa Chữa Hư Hỏng Do Bão & Mưa Đá', 'link' => '/services/storm-hail-damage-repair'],
+        ['label' => 'Roof Maintenance & Inspections','label_es' => 'Mantenimiento e Inspecciones de Techo',      'label_vi' => 'Bảo Trì & Kiểm Tra Mái Nhà',       'link' => '/services/roof-maintenance-inspections'],
         // Temporalmente oculto a pedido del cliente — no borrar, solo descomentar para reactivar.
-        // ['label' => 'Commercial & Flat Roofing',      'label_es' => 'Techado Comercial y Plano',                 'link' => '/services/commercial-flat-roofing'],
-        ['label' => 'HOA Roofing Programs',           'label_es' => 'Programas de Techado para HOA',             'link' => '/services/hoa-roofing-programs'],
+        // ['label' => 'Commercial & Flat Roofing',      'label_es' => 'Techado Comercial y Plano',                 'label_vi' => 'Mái Nhà Thương Mại & Mái Bằng',    'link' => '/services/commercial-flat-roofing'],
+        ['label' => 'HOA Roofing Programs',           'label_es' => 'Programas de Techado para HOA',             'label_vi' => 'Chương Trình Mái Nhà cho HOA',     'link' => '/services/hoa-roofing-programs'],
       ];
     ?>
 
@@ -82,42 +82,42 @@
       </div>
 
       <div class="ur-nav__bar">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="ur-nav__logo" aria-label="Urena Roofing Contractor, Home" data-en-aria="Urena Roofing Contractor, Home" data-es-aria="Ureña Roofing Contractor, Home">
-          <img src="<?php echo esc_url($logo_navy); ?>" alt="Urena Roofing Contractor LLC" data-en-alt="Urena Roofing Contractor LLC" data-es-alt="Ureña Roofing Contractor LLC">
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="ur-nav__logo" aria-label="Urena Roofing Contractor, Home" data-en-aria="Urena Roofing Contractor, Home" data-es-aria="Ureña Roofing Contractor, Home" data-vi-aria="Urena Roofing Contractor, Home">
+          <img src="<?php echo esc_url($logo_navy); ?>" alt="Urena Roofing Contractor LLC" data-en-alt="Urena Roofing Contractor LLC" data-es-alt="Ureña Roofing Contractor LLC" data-vi-alt="Urena Roofing Contractor LLC">
         </a>
 
         <!-- Desktop menu -->
         <nav class="ur-nav__menu" aria-label="Primary">
-          <a href="<?php echo esc_url(home_url('/')); ?>" class="ur-nav__link"><span data-en="Home" data-es="Inicio">Home</span></a>
-          <a href="<?php echo esc_url(home_url('/about')); ?>" class="ur-nav__link"><span data-en="About" data-es="Nosotros">About</span></a>
+          <a href="<?php echo esc_url(home_url('/')); ?>" class="ur-nav__link"><span data-en="Home" data-es="Inicio" data-vi="Trang Chủ">Home</span></a>
+          <a href="<?php echo esc_url(home_url('/about')); ?>" class="ur-nav__link"><span data-en="About" data-es="Nosotros" data-vi="Giới Thiệu">About</span></a>
 
           <div class="ur-nav__dropdown js-ur-dropdown">
             <button type="button" class="ur-nav__link ur-nav__link--dropdown js-ur-dropdown-trigger" aria-expanded="false">
-              <span data-en="Services" data-es="Servicios">Services</span> <?php echo $ur_nav_icon('chevron'); ?>
+              <span data-en="Services" data-es="Servicios" data-vi="Dịch Vụ">Services</span> <?php echo $ur_nav_icon('chevron'); ?>
             </button>
             <div class="ur-nav__panel">
-              <a href="<?php echo esc_url(home_url('/services')); ?>" class="ur-nav__panel-all"><span data-en="All Services" data-es="Todos los Servicios">All Services</span> <?php echo $ur_nav_icon('arrow'); ?></a>
+              <a href="<?php echo esc_url(home_url('/services')); ?>" class="ur-nav__panel-all"><span data-en="All Services" data-es="Todos los Servicios" data-vi="Tất Cả Dịch Vụ">All Services</span> <?php echo $ur_nav_icon('arrow'); ?></a>
               <ul>
                 <?php foreach ($ur_services_menu as $s) : ?>
-                  <li><a href="<?php echo esc_url(home_url($s['link'])); ?>"><span data-en="<?php echo esc_attr($s['label']); ?>" data-es="<?php echo esc_attr($s['label_es']); ?>"><?php echo esc_html($s['label']); ?></span></a></li>
+                  <li><a href="<?php echo esc_url(home_url($s['link'])); ?>"><span data-en="<?php echo esc_attr($s['label']); ?>" data-es="<?php echo esc_attr($s['label_es']); ?>" data-vi="<?php echo esc_attr($s['label_vi']); ?>"><?php echo esc_html($s['label']); ?></span></a></li>
                 <?php endforeach; ?>
               </ul>
             </div>
           </div>
 
-          <a href="<?php echo esc_url(home_url('/service-areas')); ?>" class="ur-nav__link"><span data-en="Service Areas" data-es="Áreas de Servicio">Service Areas</span></a>
-          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="ur-nav__link"><span data-en="Contact" data-es="Contacto">Contact</span></a>
+          <a href="<?php echo esc_url(home_url('/service-areas')); ?>" class="ur-nav__link"><span data-en="Service Areas" data-es="Áreas de Servicio" data-vi="Khu Vực Phục Vụ">Service Areas</span></a>
+          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="ur-nav__link"><span data-en="Contact" data-es="Contacto" data-vi="Liên Hệ">Contact</span></a>
         </nav>
 
         <!-- Right cluster -->
         <div class="ur-nav__actions">
-          <!-- Toggle EN/ES: guarda cookie + clase en <html>, y swapea el texto de todo lo que tenga
-               atributos data-en/data-es (ver initLanguageToggle en navbar.js). -->
-          <button type="button" class="ur-nav__lang js-ur-lang-toggle" aria-label="Switch language">
-            <span class="js-ur-lang-en is-active">EN</span><span class="ur-nav__lang-sep">/</span><span class="js-ur-lang-es">ES</span>
-          </button>
+          <!-- Selector EN/ES/VI: guarda cookie + clase en <html>, y swapea el texto de todo lo que
+               tenga atributos data-en/data-es/data-vi (ver initLanguageToggle en navbar.js). -->
+          <div class="ur-nav__lang" role="group" aria-label="Switch language">
+            <button type="button" class="ur-nav__lang-btn js-ur-lang-btn is-active" data-lang="en">EN</button><span class="ur-nav__lang-sep">/</span><button type="button" class="ur-nav__lang-btn js-ur-lang-btn" data-lang="es">ES</button><span class="ur-nav__lang-sep">/</span><button type="button" class="ur-nav__lang-btn js-ur-lang-btn" data-lang="vi">VI</button>
+          </div>
 
-          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="ur-nav__cta"><span data-en="Get Free Estimate" data-es="Estimado Gratis">Get Free Estimate</span></a>
+          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="ur-nav__cta"><span data-en="Get Free Estimate" data-es="Estimado Gratis" data-vi="Nhận Báo Giá Miễn Phí">Get Free Estimate</span></a>
 
           <button type="button" class="ur-nav__burger js-ur-menu-toggle" aria-label="Open menu" aria-expanded="false">
             <?php echo $ur_nav_icon('menu'); ?>
@@ -132,7 +132,7 @@
       <div class="ur-mnav__panel">
         <div class="ur-mnav__top">
           <a href="<?php echo esc_url(home_url('/')); ?>" class="ur-nav__logo">
-            <img src="<?php echo esc_url($logo_navy); ?>" alt="Urena Roofing Contractor LLC" data-en-alt="Urena Roofing Contractor LLC" data-es-alt="Ureña Roofing Contractor LLC">
+            <img src="<?php echo esc_url($logo_navy); ?>" alt="Urena Roofing Contractor LLC" data-en-alt="Urena Roofing Contractor LLC" data-es-alt="Ureña Roofing Contractor LLC" data-vi-alt="Urena Roofing Contractor LLC">
           </a>
           <button type="button" class="ur-mnav__close js-ur-menu-close" aria-label="Close menu">
             <?php echo $ur_nav_icon('x'); ?>
@@ -140,30 +140,35 @@
         </div>
 
         <nav class="ur-mnav__links" aria-label="Mobile">
-          <a href="<?php echo esc_url(home_url('/')); ?>"><span data-en="Home" data-es="Inicio">Home</span></a>
-          <a href="<?php echo esc_url(home_url('/about')); ?>"><span data-en="About" data-es="Nosotros">About</span></a>
+          <a href="<?php echo esc_url(home_url('/')); ?>"><span data-en="Home" data-es="Inicio" data-vi="Trang Chủ">Home</span></a>
+          <a href="<?php echo esc_url(home_url('/about')); ?>"><span data-en="About" data-es="Nosotros" data-vi="Giới Thiệu">About</span></a>
 
           <div class="ur-mnav__group">
             <button type="button" class="js-ur-mdropdown-trigger" aria-expanded="false">
-              <span data-en="Services" data-es="Servicios">Services</span> <?php echo $ur_nav_icon('chevron'); ?>
+              <span data-en="Services" data-es="Servicios" data-vi="Dịch Vụ">Services</span> <?php echo $ur_nav_icon('chevron'); ?>
             </button>
             <div class="ur-mnav__subpanel">
-              <a href="<?php echo esc_url(home_url('/services')); ?>" class="ur-mnav__subpanel-all"><span data-en="All Services" data-es="Todos los Servicios">All Services</span></a>
+              <a href="<?php echo esc_url(home_url('/services')); ?>" class="ur-mnav__subpanel-all"><span data-en="All Services" data-es="Todos los Servicios" data-vi="Tất Cả Dịch Vụ">All Services</span></a>
               <?php foreach ($ur_services_menu as $s) : ?>
-                <a href="<?php echo esc_url(home_url($s['link'])); ?>"><span data-en="<?php echo esc_attr($s['label']); ?>" data-es="<?php echo esc_attr($s['label_es']); ?>"><?php echo esc_html($s['label']); ?></span></a>
+                <a href="<?php echo esc_url(home_url($s['link'])); ?>"><span data-en="<?php echo esc_attr($s['label']); ?>" data-es="<?php echo esc_attr($s['label_es']); ?>" data-vi="<?php echo esc_attr($s['label_vi']); ?>"><?php echo esc_html($s['label']); ?></span></a>
               <?php endforeach; ?>
             </div>
           </div>
 
-          <a href="<?php echo esc_url(home_url('/service-areas')); ?>"><span data-en="Service Areas" data-es="Áreas de Servicio">Service Areas</span></a>
-          <a href="<?php echo esc_url(home_url('/contact')); ?>"><span data-en="Contact" data-es="Contacto">Contact</span></a>
+          <a href="<?php echo esc_url(home_url('/service-areas')); ?>"><span data-en="Service Areas" data-es="Áreas de Servicio" data-vi="Khu Vực Phục Vụ">Service Areas</span></a>
+          <a href="<?php echo esc_url(home_url('/contact')); ?>"><span data-en="Contact" data-es="Contacto" data-vi="Liên Hệ">Contact</span></a>
         </nav>
 
         <div class="ur-mnav__footer">
+          <!-- Mismo selector de idioma que el desktop — antes el menú mobile no
+               tenía forma de cambiar de idioma. -->
+          <div class="ur-mnav__lang" role="group" aria-label="Switch language">
+            <button type="button" class="ur-nav__lang-btn js-ur-lang-btn is-active" data-lang="en">EN</button><span class="ur-nav__lang-sep">/</span><button type="button" class="ur-nav__lang-btn js-ur-lang-btn" data-lang="es">ES</button><span class="ur-nav__lang-sep">/</span><button type="button" class="ur-nav__lang-btn js-ur-lang-btn" data-lang="vi">VI</button>
+          </div>
           <a href="tel:+18327392842" class="ur-mnav__call">
-            <?php echo $ur_nav_icon('phone'); ?><span data-en="Call (832) 739-2842" data-es="Llamar (832) 739-2842">Call (832) 739-2842</span>
+            <?php echo $ur_nav_icon('phone'); ?><span data-en="Call (832) 739-2842" data-es="Llamar (832) 739-2842" data-vi="Gọi (832) 739-2842">Call (832) 739-2842</span>
           </a>
-          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="ur-nav__cta ur-nav__cta--block"><span data-en="Get Free Estimate" data-es="Estimado Gratis">Get Free Estimate</span></a>
+          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="ur-nav__cta ur-nav__cta--block"><span data-en="Get Free Estimate" data-es="Estimado Gratis" data-vi="Nhận Báo Giá Miễn Phí">Get Free Estimate</span></a>
         </div>
       </div>
     </div>

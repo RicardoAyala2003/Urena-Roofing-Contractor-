@@ -41,25 +41,26 @@ get_header(); ?>
     // DATA — ÚNICO bloque que cambia entre los 5 servicios
     // ------------------------------------------------------------
     $service = [
-      'eyebrow'    => 'Preventive Care', 'eyebrow_es' => 'Cuidado Preventivo',
-      'headline'   => 'Roof Maintenance & Inspections', 'headline_es' => 'Mantenimiento e Inspecciones de Techo',
+      'eyebrow'    => 'Preventive Care', 'eyebrow_es' => 'Cuidado Preventivo', 'eyebrow_vi' => 'Chăm Sóc Phòng Ngừa',
+      'headline'   => 'Roof Maintenance & Inspections', 'headline_es' => 'Mantenimiento e Inspecciones de Techo', 'headline_vi' => 'Bảo Trì & Kiểm Tra Mái Nhà',
       'subhead'    => 'Preventive care that extends the life of your roof and catches small issues before they become expensive repairs.',
       'subhead_es' => 'Cuidado preventivo que extiende la vida de tu techo y detecta problemas pequeños antes de que se conviertan en reparaciones costosas.',
+      'subhead_vi' => 'Chăm sóc phòng ngừa giúp kéo dài tuổi thọ mái nhà của bạn và phát hiện sớm các vấn đề nhỏ trước khi chúng trở thành những sửa chữa tốn kém.',
       'hero_image' => $img . 'Copia-de-DJI_20260610064949_0032_D-scaled.jpg',
       'included_image' => $img . 'Copia-de-IMG-20250902-WA0046.jpg',
 
       'included' => [
-        ['icon' => 'file-text', 'text' => 'Scheduled annual or seasonal inspections', 'text_es' => 'Inspecciones programadas anuales o de temporada'],
-        ['icon' => 'camera',    'text' => 'Detailed photo reports after every visit', 'text_es' => 'Informes fotográficos detallados después de cada visita'],
-        ['icon' => 'shield',    'text' => 'Minor repair and sealing services', 'text_es' => 'Servicios de reparación menor y sellado'],
-        ['icon' => 'home',      'text' => 'Maintenance plans for homeowners and HOAs', 'text_es' => 'Planes de mantenimiento para propietarios y HOAs'],
+        ['icon' => 'file-text', 'text' => 'Scheduled annual or seasonal inspections', 'text_es' => 'Inspecciones programadas anuales o de temporada', 'text_vi' => 'Kiểm tra định kỳ hàng năm hoặc theo mùa'],
+        ['icon' => 'camera',    'text' => 'Detailed photo reports after every visit', 'text_es' => 'Informes fotográficos detallados después de cada visita', 'text_vi' => 'Báo cáo hình ảnh chi tiết sau mỗi lần kiểm tra'],
+        ['icon' => 'shield',    'text' => 'Minor repair and sealing services', 'text_es' => 'Servicios de reparación menor y sellado', 'text_vi' => 'Dịch vụ sửa chữa nhỏ và trám kín'],
+        ['icon' => 'home',      'text' => 'Maintenance plans for homeowners and HOAs', 'text_es' => 'Planes de mantenimiento para propietarios y HOAs', 'text_vi' => 'Gói bảo trì dành cho chủ nhà và HOA'],
       ],
 
       'process' => [
-        ['title' => 'Schedule Your Inspection', 'title_es' => 'Programa tu Inspección', 'text' => 'Pick a date that works for you, seasonal or one-time, on your schedule.', 'text_es' => 'Elige una fecha que te convenga, de temporada o única vez, según tu horario.', 'image' => $img . 'inspections.jpg'],
-        ['title' => 'Full Roof Assessment',      'title_es' => 'Evaluación Completa del Techo', 'text' => 'A complete inspection with a detailed photo report of everything we find.', 'text_es' => 'Una inspección completa con un informe fotográfico detallado de todo lo que encontramos.', 'image' => $img . 'IMG-20250218-WA0041.jpg'],
-        ['title' => 'Recommendations & Repairs', 'title_es' => 'Recomendaciones y Reparaciones', 'text' => 'Minor repairs and sealing handled on the spot, with clear notes on anything bigger.', 'text_es' => 'Reparaciones menores y sellado resueltos en el momento, con notas claras sobre cualquier problema mayor.', 'image' => $img . 'IMG-20250218-WA0038.jpg'],
-        ['title' => 'Ongoing Maintenance Plan',  'title_es' => 'Plan de Mantenimiento Continuo', 'text' => 'A standing calendar keeps your roof, and your HOA, covered season after season.', 'text_es' => 'Un calendario permanente mantiene tu techo, y tu HOA, cubiertos temporada tras temporada.', 'image' => $img . 'Copia-de-DJI_20260610064620_0008_D-scaled.jpg'],
+        ['title' => 'Schedule Your Inspection', 'title_es' => 'Programa tu Inspección', 'title_vi' => 'Đặt Lịch Kiểm Tra', 'text' => 'Pick a date that works for you, seasonal or one-time, on your schedule.', 'text_es' => 'Elige una fecha que te convenga, de temporada o única vez, según tu horario.', 'text_vi' => 'Chọn ngày phù hợp với bạn, theo mùa hoặc một lần, theo lịch trình của bạn.', 'image' => $img . 'inspections.jpg'],
+        ['title' => 'Full Roof Assessment',      'title_es' => 'Evaluación Completa del Techo', 'title_vi' => 'Đánh Giá Toàn Bộ Mái Nhà', 'text' => 'A complete inspection with a detailed photo report of everything we find.', 'text_es' => 'Una inspección completa con un informe fotográfico detallado de todo lo que encontramos.', 'text_vi' => 'Một cuộc kiểm tra toàn diện với báo cáo hình ảnh chi tiết về mọi phát hiện.', 'image' => $img . 'IMG-20250218-WA0041.jpg'],
+        ['title' => 'Recommendations & Repairs', 'title_es' => 'Recomendaciones y Reparaciones', 'title_vi' => 'Khuyến Nghị & Sửa Chữa', 'text' => 'Minor repairs and sealing handled on the spot, with clear notes on anything bigger.', 'text_es' => 'Reparaciones menores y sellado resueltos en el momento, con notas claras sobre cualquier problema mayor.', 'text_vi' => 'Sửa chữa nhỏ và trám kín được xử lý ngay tại chỗ, kèm ghi chú rõ ràng cho các vấn đề lớn hơn.', 'image' => $img . 'IMG-20250218-WA0038.jpg'],
+        ['title' => 'Ongoing Maintenance Plan',  'title_es' => 'Plan de Mantenimiento Continuo', 'title_vi' => 'Kế Hoạch Bảo Trì Liên Tục', 'text' => 'A standing calendar keeps your roof, and your HOA, covered season after season.', 'text_es' => 'Un calendario permanente mantiene tu techo, y tu HOA, cubiertos temporada tras temporada.', 'text_vi' => 'Một lịch trình cố định giúp mái nhà của bạn, và HOA của bạn, luôn được bảo vệ qua từng mùa.', 'image' => $img . 'Copia-de-DJI_20260610064620_0008_D-scaled.jpg'],
       ],
 
       'gallery' => [
@@ -72,6 +73,7 @@ get_header(); ?>
 
       'cta_headline' => 'Ready to get started? Request your free estimate today.',
       'cta_headline_es' => '¿Listo para comenzar? Solicita tu estimado gratis hoy.',
+      'cta_headline_vi' => 'Sẵn sàng bắt đầu? Yêu cầu báo giá miễn phí ngay hôm nay.',
     ];
   ?>
 
@@ -79,7 +81,7 @@ get_header(); ?>
   <!-- HERO                                                          -->
   <!-- ============================================================ -->
   <section class="ur-svc-hero relative isolate flex min-h-[460px] items-center overflow-hidden text-white lg:min-h-[540px]">
-    <img src="<?php echo esc_url($service['hero_image']); ?>" alt="<?php echo esc_attr($service['headline']); ?> — Urena Roofing Contractor" data-en-alt="<?php echo esc_attr($service['headline']); ?> — Urena Roofing Contractor" data-es-alt="<?php echo esc_attr($service['headline']); ?> — Ureña Roofing Contractor" class="ur-hero-kb absolute inset-0 h-full w-full object-cover">
+    <img src="<?php echo esc_url($service['hero_image']); ?>" alt="<?php echo esc_attr($service['headline']); ?> — Urena Roofing Contractor" data-en-alt="<?php echo esc_attr($service['headline']); ?> — Urena Roofing Contractor" data-es-alt="<?php echo esc_attr($service['headline']); ?> — Ureña Roofing Contractor" data-vi-alt="<?php echo esc_attr($service['headline_vi']); ?> — Urena Roofing Contractor" class="ur-hero-kb absolute inset-0 h-full w-full object-cover">
     <div class="ur-svc-hero__scrim absolute inset-0"></div>
 
     <span class="ur-hud-corner ur-hud-corner--tl ur-hud-corner--xl" aria-hidden="true"></span>
@@ -88,20 +90,20 @@ get_header(); ?>
     <span class="ur-hud-corner ur-hud-corner--br ur-hud-corner--xl" aria-hidden="true"></span>
 
     <div class="relative z-10 mx-auto max-w-4xl px-4 text-center">
-      <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0"><span data-en="<?php echo esc_attr($service['eyebrow']); ?>" data-es="<?php echo esc_attr($service['eyebrow_es']); ?>"><?php echo esc_html($service['eyebrow']); ?></span></p>
-      <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] md:text-6xl" data-en="<?php echo esc_attr($service['headline']); ?>" data-es="<?php echo esc_attr($service['headline_es']); ?>">
+      <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0"><span data-en="<?php echo esc_attr($service['eyebrow']); ?>" data-es="<?php echo esc_attr($service['eyebrow_es']); ?>" data-vi="<?php echo esc_attr($service['eyebrow_vi']); ?>"><?php echo esc_html($service['eyebrow']); ?></span></p>
+      <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] md:text-6xl" data-en="<?php echo esc_attr($service['headline']); ?>" data-es="<?php echo esc_attr($service['headline_es']); ?>" data-vi="<?php echo esc_attr($service['headline_vi']); ?>">
         <?php
           $hero_words = explode(' ', $service['headline']);
           foreach ($hero_words as $i => $word) : ?>
             <span class="ur-word"><span class="ur-word__inner" style="--i:<?php echo (int) $i; ?>"><?php echo esc_html($word); ?></span></span><?php echo ' '; ?>
           <?php endforeach; ?>
       </h1>
-      <p class="ur-fade-in-2 mx-auto mt-6 max-w-2xl text-base leading-7 text-white/85 md:text-lg" data-en="<?php echo esc_attr($service['subhead']); ?>" data-es="<?php echo esc_attr($service['subhead_es']); ?>">
+      <p class="ur-fade-in-2 mx-auto mt-6 max-w-2xl text-base leading-7 text-white/85 md:text-lg" data-en="<?php echo esc_attr($service['subhead']); ?>" data-es="<?php echo esc_attr($service['subhead_es']); ?>" data-vi="<?php echo esc_attr($service['subhead_vi']); ?>">
         <?php echo esc_html($service['subhead']); ?>
       </p>
       <div class="ur-fade-in-3 mt-9">
         <a href="/contact" class="ur-btn ur-btn-gold ur-magnetic inline-flex items-center justify-center gap-2 px-8 py-4 text-sm font-black uppercase tracking-[0.12em]">
-          <span data-en="Get Free Estimate" data-es="Obtén Estimado Gratis">Get Free Estimate</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
+          <span data-en="Get Free Estimate" data-es="Obtén Estimado Gratis" data-vi="Nhận Báo Giá Miễn Phí">Get Free Estimate</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
         </a>
       </div>
     </div>
@@ -115,8 +117,8 @@ get_header(); ?>
 
     <div class="relative mx-auto max-w-7xl px-4">
       <div class="ur-reveal-up max-w-2xl">
-        <p class="ur-eyebrow" data-en="What's Included" data-es="Qué Incluye">What's Included</p>
-        <h2 class="mt-4 text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="Everything Covered, Nothing Assumed" data-es="Todo Cubierto, Nada Asumido">
+        <p class="ur-eyebrow" data-en="What's Included" data-es="Qué Incluye" data-vi="Những Gì Được Bao Gồm">What's Included</p>
+        <h2 class="mt-4 text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="Everything Covered, Nothing Assumed" data-es="Todo Cubierto, Nada Asumido" data-vi="Bao Quát Toàn Diện, Không Bỏ Sót Chi Tiết">
           Everything Covered, Nothing Assumed
         </h2>
       </div>
@@ -130,7 +132,7 @@ get_header(); ?>
                   <path d="M20 6 9 17l-5-5"/>
                 </svg>
               </span>
-              <p class="ur-included-card__text"><span data-en="<?php echo esc_attr($item['text']); ?>" data-es="<?php echo esc_attr($item['text_es']); ?>"><?php echo esc_html($item['text']); ?></span></p>
+              <p class="ur-included-card__text"><span data-en="<?php echo esc_attr($item['text']); ?>" data-es="<?php echo esc_attr($item['text_es']); ?>" data-vi="<?php echo esc_attr($item['text_vi']); ?>"><?php echo esc_html($item['text']); ?></span></p>
             </div>
           <?php endforeach; ?>
         </div>
@@ -138,7 +140,7 @@ get_header(); ?>
         <div class="ur-reveal-right ur-included-photo ur-wipe">
           <span class="ur-hud-corner ur-hud-corner--tl" aria-hidden="true"></span>
           <span class="ur-hud-corner ur-hud-corner--br" aria-hidden="true"></span>
-          <img src="<?php echo esc_url($service['included_image']); ?>" alt="A well-maintained Houston neighborhood roof, inspected by Urena Roofing Contractor" data-en-alt="A well-maintained Houston neighborhood roof, inspected by Urena Roofing Contractor" data-es-alt="A well-maintained Houston neighborhood roof, inspected by Ureña Roofing Contractor" class="ur-wipe__img h-full w-full object-cover" loading="lazy">
+          <img src="<?php echo esc_url($service['included_image']); ?>" alt="A well-maintained Houston neighborhood roof, inspected by Urena Roofing Contractor" data-en-alt="A well-maintained Houston neighborhood roof, inspected by Urena Roofing Contractor" data-es-alt="A well-maintained Houston neighborhood roof, inspected by Ureña Roofing Contractor" data-vi-alt="Mái nhà khu dân cư Houston được bảo trì tốt, kiểm tra bởi Urena Roofing Contractor" class="ur-wipe__img h-full w-full object-cover" loading="lazy">
         </div>
       </div>
     </div>
@@ -150,8 +152,8 @@ get_header(); ?>
   <section class="ur-svc-process relative overflow-hidden bg-white py-20 lg:py-28">
     <div class="mx-auto max-w-6xl px-4">
       <div class="ur-reveal-up mx-auto max-w-2xl text-center">
-        <p class="ur-eyebrow" data-en="Our Process" data-es="Nuestro Proceso">Our Process</p>
-        <h2 class="mt-4 text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="From First Call to Final Walkthrough" data-es="Desde la Primera Llamada Hasta el Recorrido Final">
+        <p class="ur-eyebrow" data-en="Our Process" data-es="Nuestro Proceso" data-vi="Quy Trình Của Chúng Tôi">Our Process</p>
+        <h2 class="mt-4 text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="From First Call to Final Walkthrough" data-es="Desde la Primera Llamada Hasta el Recorrido Final" data-vi="Từ Cuộc Gọi Đầu Tiên Đến Bàn Giao Cuối Cùng">
           From First Call to Final Walkthrough
         </h2>
       </div>
@@ -164,12 +166,12 @@ get_header(); ?>
         <?php foreach ($service['process'] as $i => $step) : ?>
           <div class="js-ur-process-step ur-process__step <?php echo $i % 2 === 1 ? 'ur-process__step--reverse' : ''; ?>">
             <div class="ur-process__photo ur-tilt">
-              <img src="<?php echo esc_url($step['image']); ?>" alt="<?php echo esc_attr($step['title']); ?> — Urena Roofing Contractor" data-en-alt="<?php echo esc_attr($step['title']); ?> — Urena Roofing Contractor" data-es-alt="<?php echo esc_attr($step['title']); ?> — Ureña Roofing Contractor" loading="lazy">
+              <img src="<?php echo esc_url($step['image']); ?>" alt="<?php echo esc_attr($step['title']); ?> — Urena Roofing Contractor" data-en-alt="<?php echo esc_attr($step['title']); ?> — Urena Roofing Contractor" data-es-alt="<?php echo esc_attr($step['title']); ?> — Ureña Roofing Contractor" data-vi-alt="<?php echo esc_attr($step['title_vi']); ?> — Urena Roofing Contractor" loading="lazy">
             </div>
             <div class="ur-process__copy">
               <span class="js-ur-process-marker ur-process__marker"><?php echo esc_html(str_pad($i + 1, 2, '0', STR_PAD_LEFT)); ?></span>
-              <h3 class="ur-process__title"><span data-en="<?php echo esc_attr($step['title']); ?>" data-es="<?php echo esc_attr($step['title_es']); ?>"><?php echo esc_html($step['title']); ?></span></h3>
-              <p class="ur-process__text"><span data-en="<?php echo esc_attr($step['text']); ?>" data-es="<?php echo esc_attr($step['text_es']); ?>"><?php echo esc_html($step['text']); ?></span></p>
+              <h3 class="ur-process__title"><span data-en="<?php echo esc_attr($step['title']); ?>" data-es="<?php echo esc_attr($step['title_es']); ?>" data-vi="<?php echo esc_attr($step['title_vi']); ?>"><?php echo esc_html($step['title']); ?></span></h3>
+              <p class="ur-process__text"><span data-en="<?php echo esc_attr($step['text']); ?>" data-es="<?php echo esc_attr($step['text_es']); ?>" data-vi="<?php echo esc_attr($step['text_vi']); ?>"><?php echo esc_html($step['text']); ?></span></p>
             </div>
           </div>
         <?php endforeach; ?>
@@ -183,8 +185,8 @@ get_header(); ?>
   <section class="relative overflow-hidden bg-[#EEF1F5] py-20 lg:py-24">
     <div class="mx-auto max-w-7xl px-4">
       <div class="ur-reveal-up max-w-2xl">
-        <p class="ur-eyebrow" data-en="Recent Work" data-es="Trabajos Recientes">Recent Work</p>
-        <h2 class="mt-4 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Real Replacements, Real Houston Roofs" data-es="Reemplazos Reales, Techos Reales de Houston">
+        <p class="ur-eyebrow" data-en="Recent Work" data-es="Trabajos Recientes" data-vi="Công Trình Gần Đây">Recent Work</p>
+        <h2 class="mt-4 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Real Replacements, Real Houston Roofs" data-es="Reemplazos Reales, Techos Reales de Houston" data-vi="Công Trình Thật, Mái Nhà Thật Tại Houston">
           Real Replacements, Real Houston Roofs
         </h2>
       </div>
@@ -194,7 +196,7 @@ get_header(); ?>
           <span class="ur-stack__spot" aria-hidden="true"></span>
           <?php foreach ($service['gallery'] as $i => $photo) : ?>
             <button type="button" class="js-ur-stack-card ur-stack__card" data-index="<?php echo (int) $i; ?>" aria-label="View project photo <?php echo (int) $i + 1; ?>">
-              <img src="<?php echo esc_url($photo); ?>" alt="Roof maintenance and inspection project — Urena Roofing Contractor" data-en-alt="Roof maintenance and inspection project — Urena Roofing Contractor" data-es-alt="Roof maintenance and inspection project — Ureña Roofing Contractor" draggable="false" loading="lazy">
+              <img src="<?php echo esc_url($photo); ?>" alt="Roof maintenance and inspection project — Urena Roofing Contractor" data-en-alt="Roof maintenance and inspection project — Urena Roofing Contractor" data-es-alt="Roof maintenance and inspection project — Ureña Roofing Contractor" data-vi-alt="Dự án bảo trì và kiểm tra mái nhà — Urena Roofing Contractor" draggable="false" loading="lazy">
             </button>
           <?php endforeach; ?>
         </div>
@@ -213,7 +215,7 @@ get_header(); ?>
         <button type="button" class="js-ur-stack-lightbox-close ur-lightbox__close" aria-label="Close">
           <?php echo $icon('x', 'h-5 w-5'); ?>
         </button>
-        <img src="" alt="Roof maintenance and inspection project — Urena Roofing Contractor" data-en-alt="Roof maintenance and inspection project — Urena Roofing Contractor" data-es-alt="Roof maintenance and inspection project — Ureña Roofing Contractor" class="js-ur-stack-lightbox-img ur-lightbox__img">
+        <img src="" alt="Roof maintenance and inspection project — Urena Roofing Contractor" data-en-alt="Roof maintenance and inspection project — Urena Roofing Contractor" data-es-alt="Roof maintenance and inspection project — Ureña Roofing Contractor" data-vi-alt="Dự án bảo trì và kiểm tra mái nhà — Urena Roofing Contractor" class="js-ur-stack-lightbox-img ur-lightbox__img">
       </div>
     </div>
   </section>
@@ -223,12 +225,12 @@ get_header(); ?>
   <!-- ============================================================ -->
   <section class="ur-svc-cta relative isolate overflow-hidden py-20 text-center text-white lg:py-24">
     <div class="relative mx-auto max-w-2xl px-4">
-      <h2 class="ur-reveal-up text-3xl font-black uppercase leading-[1.05] tracking-[-0.01em] md:text-5xl" data-en="<?php echo esc_attr($service['cta_headline']); ?>" data-es="<?php echo esc_attr($service['cta_headline_es']); ?>">
+      <h2 class="ur-reveal-up text-3xl font-black uppercase leading-[1.05] tracking-[-0.01em] md:text-5xl" data-en="<?php echo esc_attr($service['cta_headline']); ?>" data-es="<?php echo esc_attr($service['cta_headline_es']); ?>" data-vi="<?php echo esc_attr($service['cta_headline_vi']); ?>">
         <?php echo esc_html($service['cta_headline']); ?>
       </h2>
       <div class="ur-reveal-up mt-9 flex flex-wrap items-center justify-center gap-3">
         <a href="/contact" class="ur-btn ur-btn-gold ur-magnetic inline-flex items-center justify-center gap-2 px-8 py-4 text-sm font-black uppercase tracking-[0.12em]">
-          <span data-en="Get Free Estimate" data-es="Obtén Estimado Gratis">Get Free Estimate</span>
+          <span data-en="Get Free Estimate" data-es="Obtén Estimado Gratis" data-vi="Nhận Báo Giá Miễn Phí">Get Free Estimate</span>
         </a>
         <a href="tel:+18327392842" class="ur-btn ur-btn-outline ur-magnetic inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-white">
           <?php echo $icon('phone', 'h-4 w-4'); ?><span>(832) 739-2842</span>

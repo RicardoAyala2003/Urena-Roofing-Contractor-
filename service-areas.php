@@ -45,47 +45,53 @@ get_header(); ?>
         'key'   => 'premium',
         'label' => 'Premium Areas',
         'label_es' => 'Áreas Premium',
+        'label_vi' => 'Khu Vực Cao Cấp',
         'intro' => 'Established, high-value neighborhoods where homeowners expect precision, premium materials, and long-term warranties.',
         'intro_es' => 'Vecindarios consolidados y de alto valor donde los propietarios esperan precisión, materiales premium y garantías a largo plazo.',
+        'intro_vi' => 'Những khu dân cư lâu đời, giá trị cao, nơi chủ nhà kỳ vọng sự chính xác, vật liệu cao cấp và bảo hành dài hạn.',
         'areas' => [
-          ['name' => 'Bellaire',        'zip' => '77401', 'tag' => 'Residential', 'tag_es' => 'Residencial', 'icon' => 'home',  'copy' => 'Premium roofing with guaranteed craftsmanship and energy-efficient materials.', 'copy_es' => 'Techado premium con mano de obra garantizada y materiales de eficiencia energética.'],
-          ['name' => 'West University', 'zip' => '77005', 'tag' => 'Residential', 'tag_es' => 'Residencial', 'icon' => 'home',  'copy' => 'Excellence and precision: zero interruptions, complete documentation.', 'copy_es' => 'Excelencia y precisión: cero interrupciones, documentación completa.'],
-          ['name' => 'Memorial',        'zip' => '77024', 'tag' => 'Residential', 'tag_es' => 'Residencial', 'icon' => 'home',  'copy' => 'Precision roofing solutions for discerning homeowners.', 'copy_es' => 'Soluciones de techado de precisión para propietarios exigentes.'],
-          ['name' => 'Houston Heights', 'zip' => '77008', 'tag' => 'Residential', 'tag_es' => 'Residencial', 'icon' => 'home',  'copy' => 'Beautiful, design-forward roofing. See our before & after transformations.', 'copy_es' => 'Techado hermoso y de vanguardia en diseño. Mira nuestras transformaciones de antes y después.'],
-          ['name' => 'Sugar Land',      'zip' => '77479', 'tag' => 'HOA',         'tag_es' => 'HOA',         'icon' => 'users', 'copy' => 'Professional, dependable roofing for growing communities and HOAs.', 'copy_es' => 'Techado profesional y confiable para comunidades en crecimiento y HOAs.'],
+          ['name' => 'Bellaire',        'zip' => '77401', 'tag' => 'Residential', 'tag_es' => 'Residencial', 'tag_vi' => 'Nhà Ở', 'icon' => 'home',  'copy' => 'Premium roofing with guaranteed craftsmanship and energy-efficient materials.', 'copy_es' => 'Techado premium con mano de obra garantizada y materiales de eficiencia energética.', 'copy_vi' => 'Mái nhà cao cấp với tay nghề được bảo đảm và vật liệu tiết kiệm năng lượng.'],
+          ['name' => 'West University', 'zip' => '77005', 'tag' => 'Residential', 'tag_es' => 'Residencial', 'tag_vi' => 'Nhà Ở', 'icon' => 'home',  'copy' => 'Excellence and precision: zero interruptions, complete documentation.', 'copy_es' => 'Excelencia y precisión: cero interrupciones, documentación completa.', 'copy_vi' => 'Chất lượng xuất sắc và chính xác: không gián đoạn, hồ sơ đầy đủ.'],
+          ['name' => 'Memorial',        'zip' => '77024', 'tag' => 'Residential', 'tag_es' => 'Residencial', 'tag_vi' => 'Nhà Ở', 'icon' => 'home',  'copy' => 'Precision roofing solutions for discerning homeowners.', 'copy_es' => 'Soluciones de techado de precisión para propietarios exigentes.', 'copy_vi' => 'Giải pháp lợp mái chính xác dành cho những chủ nhà khó tính.'],
+          ['name' => 'Houston Heights', 'zip' => '77008', 'tag' => 'Residential', 'tag_es' => 'Residencial', 'tag_vi' => 'Nhà Ở', 'icon' => 'home',  'copy' => 'Beautiful, design-forward roofing. See our before & after transformations.', 'copy_es' => 'Techado hermoso y de vanguardia en diseño. Mira nuestras transformaciones de antes y después.', 'copy_vi' => 'Mái nhà đẹp, thiết kế hiện đại. Xem những chuyển đổi trước và sau của chúng tôi.'],
+          ['name' => 'Sugar Land',      'zip' => '77479', 'tag' => 'HOA',         'tag_es' => 'HOA',         'tag_vi' => 'HOA', 'icon' => 'users', 'copy' => 'Professional, dependable roofing for growing communities and HOAs.', 'copy_es' => 'Techado profesional y confiable para comunidades en crecimiento y HOAs.', 'copy_vi' => 'Dịch vụ lợp mái chuyên nghiệp, đáng tin cậy cho các cộng đồng đang phát triển và HOA.'],
         ],
       ],
       [
         'key'   => 'storm',
         'label' => 'Storm-Prone Areas',
         'label_es' => 'Áreas Propensas a Tormentas',
+        'label_vi' => 'Khu Vực Dễ Bị Bão',
         'intro' => 'Communities most affected by severe weather, where fast, insurance-ready response matters most.',
         'intro_es' => 'Comunidades más afectadas por el clima severo, donde la respuesta rápida y lista para el seguro es más importante.',
+        'intro_vi' => 'Những cộng đồng chịu ảnh hưởng nặng nề nhất từ thời tiết khắc nghiệt, nơi phản ứng nhanh và sẵn sàng hỗ trợ bảo hiểm là quan trọng nhất.',
         'areas' => [
-          ['name' => 'Clear Lake',    'zip' => '77059', 'display' => null, 'tag' => 'Storm Response', 'tag_es' => 'Respuesta a Tormentas', 'icon' => 'cloud', 'copy' => 'Storm-resistant roofing and rapid emergency response for growing families.', 'copy_es' => 'Techado resistente a tormentas y respuesta rápida de emergencia para familias en crecimiento.'],
-          ['name' => '77084 / 77095', 'zip' => null,     'display' => '77084', 'tag' => 'Storm Response', 'tag_es' => 'Respuesta a Tormentas', 'icon' => 'cloud', 'copy' => 'Fair pricing, fast turnaround, and roofing solutions your neighbors trust.', 'copy_es' => 'Precios justos, tiempos rápidos, y soluciones de techado en las que confían tus vecinos.'],
-          ['name' => 'Spring / Klein','zip' => null,     'display' => 'Spring', 'tag' => 'Storm Response', 'tag_es' => 'Respuesta a Tormentas', 'icon' => 'cloud', 'copy' => 'Reliable hail and wind damage repair, backed by insurance claim support.', 'copy_es' => 'Reparación confiable de daños por granizo y viento, respaldada por apoyo en reclamos de seguro.'],
+          ['name' => 'Clear Lake',    'zip' => '77059', 'display' => null, 'tag' => 'Storm Response', 'tag_es' => 'Respuesta a Tormentas', 'tag_vi' => 'Ứng Phó Bão', 'icon' => 'cloud', 'copy' => 'Storm-resistant roofing and rapid emergency response for growing families.', 'copy_es' => 'Techado resistente a tormentas y respuesta rápida de emergencia para familias en crecimiento.', 'copy_vi' => 'Mái nhà chống chịu bão và phản ứng khẩn cấp nhanh chóng cho các gia đình đang phát triển.'],
+          ['name' => '77084 / 77095', 'zip' => null,     'display' => '77084', 'tag' => 'Storm Response', 'tag_es' => 'Respuesta a Tormentas', 'tag_vi' => 'Ứng Phó Bão', 'icon' => 'cloud', 'copy' => 'Fair pricing, fast turnaround, and roofing solutions your neighbors trust.', 'copy_es' => 'Precios justos, tiempos rápidos, y soluciones de techado en las que confían tus vecinos.', 'copy_vi' => 'Giá cả hợp lý, thời gian hoàn thành nhanh, và giải pháp lợp mái được hàng xóm của bạn tin tưởng.'],
+          ['name' => 'Spring / Klein','zip' => null,     'display' => 'Spring', 'tag' => 'Storm Response', 'tag_es' => 'Respuesta a Tormentas', 'tag_vi' => 'Ứng Phó Bão', 'icon' => 'cloud', 'copy' => 'Reliable hail and wind damage repair, backed by insurance claim support.', 'copy_es' => 'Reparación confiable de daños por granizo y viento, respaldada por apoyo en reclamos de seguro.', 'copy_vi' => 'Sửa chữa đáng tin cậy các hư hỏng do mưa đá và gió, được hỗ trợ bởi dịch vụ xử lý yêu cầu bồi thường bảo hiểm.'],
         ],
       ],
       [
         'key'   => 'growing',
         'label' => 'Growing Communities',
         'label_es' => 'Comunidades en Crecimiento',
+        'label_vi' => 'Cộng Đồng Đang Phát Triển',
         'intro' => 'Expanding suburbs where new construction and preventive maintenance go hand in hand.',
         'intro_es' => 'Suburbios en expansión donde la construcción nueva y el mantenimiento preventivo van de la mano.',
+        'intro_vi' => 'Các vùng ngoại ô đang mở rộng, nơi xây dựng mới và bảo trì phòng ngừa luôn song hành.',
         'areas' => [
-          ['name' => 'Katy',     'zip' => null, 'tag' => 'Residential', 'tag_es' => 'Residencial', 'icon' => 'home', 'copy' => "New roofs and long-term maintenance for Houston's fastest-growing suburb.", 'copy_es' => 'Techos nuevos y mantenimiento a largo plazo para el suburbio de más rápido crecimiento de Houston.'],
-          ['name' => 'Cypress',  'zip' => null, 'tag' => 'Residential', 'tag_es' => 'Residencial', 'icon' => 'home', 'copy' => 'Trusted roofing for new and growing neighborhoods.', 'copy_es' => 'Techado de confianza para vecindarios nuevos y en crecimiento.'],
-          ['name' => 'Fulshear', 'zip' => null, 'tag' => 'Residential', 'tag_es' => 'Residencial', 'icon' => 'home', 'copy' => 'Building trust roof by roof as Fulshear grows.', 'copy_es' => 'Construyendo confianza techo a techo mientras Fulshear crece.'],
-          ['name' => 'Richmond', 'zip' => null, 'tag' => 'Residential', 'tag_es' => 'Residencial', 'icon' => 'home', 'copy' => 'Dependable roofing solutions for new and established homes alike.', 'copy_es' => 'Soluciones de techado confiables tanto para casas nuevas como establecidas.'],
+          ['name' => 'Katy',     'zip' => null, 'tag' => 'Residential', 'tag_es' => 'Residencial', 'tag_vi' => 'Nhà Ở', 'icon' => 'home', 'copy' => "New roofs and long-term maintenance for Houston's fastest-growing suburb.", 'copy_es' => 'Techos nuevos y mantenimiento a largo plazo para el suburbio de más rápido crecimiento de Houston.', 'copy_vi' => 'Mái nhà mới và bảo trì dài hạn cho khu ngoại ô phát triển nhanh nhất Houston.'],
+          ['name' => 'Cypress',  'zip' => null, 'tag' => 'Residential', 'tag_es' => 'Residencial', 'tag_vi' => 'Nhà Ở', 'icon' => 'home', 'copy' => 'Trusted roofing for new and growing neighborhoods.', 'copy_es' => 'Techado de confianza para vecindarios nuevos y en crecimiento.', 'copy_vi' => 'Dịch vụ lợp mái đáng tin cậy cho các khu dân cư mới và đang phát triển.'],
+          ['name' => 'Fulshear', 'zip' => null, 'tag' => 'Residential', 'tag_es' => 'Residencial', 'tag_vi' => 'Nhà Ở', 'icon' => 'home', 'copy' => 'Building trust roof by roof as Fulshear grows.', 'copy_es' => 'Construyendo confianza techo a techo mientras Fulshear crece.', 'copy_vi' => 'Xây dựng niềm tin từng mái nhà một khi Fulshear ngày càng phát triển.'],
+          ['name' => 'Richmond', 'zip' => null, 'tag' => 'Residential', 'tag_es' => 'Residencial', 'tag_vi' => 'Nhà Ở', 'icon' => 'home', 'copy' => 'Dependable roofing solutions for new and established homes alike.', 'copy_es' => 'Soluciones de techado confiables tanto para casas nuevas como establecidas.', 'copy_vi' => 'Giải pháp lợp mái đáng tin cậy cho cả nhà mới lẫn nhà đã xây dựng lâu năm.'],
         ],
       ],
     ];
 
     $sa_faqs = [
-      ['q' => 'What if my neighborhood isn\'t listed above?', 'q_es' => '¿Qué pasa si mi vecindario no está en la lista de arriba?', 'a' => 'We probably still cover it. Contact us with your address or ZIP code and we\'ll confirm coverage right away.', 'a_es' => 'Probablemente igual lo cubrimos. Contáctanos con tu dirección o código postal y confirmaremos la cobertura de inmediato.'],
-      ['q' => 'Do you serve HOAs and multifamily communities, not just single homes?', 'q_es' => '¿Atienden a HOAs y comunidades multifamiliares, no solo casas individuales?', 'a' => 'Yes. We work with HOA boards, property managers, and church administrators throughout Houston on scheduled inspections and maintenance contracts, not just individual homeowners.', 'a_es' => 'Sí. Trabajamos con juntas de HOA, administradores de propiedades y administradores de iglesias en todo Houston en inspecciones programadas y contratos de mantenimiento, no solo con propietarios individuales.'],
-      ['q' => 'Can I see photos of work you\'ve done near me?', 'q_es' => '¿Puedo ver fotos de trabajos que hayan hecho cerca de mí?', 'a' => 'Yes. Check out our before-and-after gallery on the homepage for real project photos from across Houston-area neighborhoods.', 'a_es' => 'Sí. Consulta nuestra galería de antes y después en la página principal para ver fotos reales de proyectos en vecindarios de toda el área de Houston.'],
+      ['q' => 'What if my neighborhood isn\'t listed above?', 'q_es' => '¿Qué pasa si mi vecindario no está en la lista de arriba?', 'q_vi' => 'Nếu khu dân cư của tôi không có trong danh sách trên thì sao?', 'a' => 'We probably still cover it. Contact us with your address or ZIP code and we\'ll confirm coverage right away.', 'a_es' => 'Probablemente igual lo cubrimos. Contáctanos con tu dirección o código postal y confirmaremos la cobertura de inmediato.', 'a_vi' => 'Rất có thể chúng tôi vẫn phục vụ khu vực đó. Hãy liên hệ với chúng tôi kèm địa chỉ hoặc mã ZIP, chúng tôi sẽ xác nhận phạm vi phục vụ ngay lập tức.'],
+      ['q' => 'Do you serve HOAs and multifamily communities, not just single homes?', 'q_es' => '¿Atienden a HOAs y comunidades multifamiliares, no solo casas individuales?', 'q_vi' => 'Quý công ty có phục vụ HOA và các cộng đồng đa hộ gia đình, không chỉ nhà ở riêng lẻ không?', 'a' => 'Yes. We work with HOA boards, property managers, and church administrators throughout Houston on scheduled inspections and maintenance contracts, not just individual homeowners.', 'a_es' => 'Sí. Trabajamos con juntas de HOA, administradores de propiedades y administradores de iglesias en todo Houston en inspecciones programadas y contratos de mantenimiento, no solo con propietarios individuales.', 'a_vi' => 'Có. Chúng tôi hợp tác với ban quản trị HOA, quản lý bất động sản và quản lý nhà thờ trên khắp Houston để thực hiện các đợt kiểm tra định kỳ và hợp đồng bảo trì, không chỉ với các chủ nhà cá nhân.'],
+      ['q' => 'Can I see photos of work you\'ve done near me?', 'q_es' => '¿Puedo ver fotos de trabajos que hayan hecho cerca de mí?', 'q_vi' => 'Tôi có thể xem hình ảnh các công trình quý công ty đã thực hiện gần khu vực của tôi không?', 'a' => 'Yes. Check out our before-and-after gallery on the homepage for real project photos from across Houston-area neighborhoods.', 'a_es' => 'Sí. Consulta nuestra galería de antes y después en la página principal para ver fotos reales de proyectos en vecindarios de toda el área de Houston.', 'a_vi' => 'Có. Hãy xem thư viện ảnh trước và sau trên trang chủ để thấy hình ảnh thực tế các dự án tại các khu dân cư khắp khu vực Houston.'],
     ];
 
     // Mapa de todos los pines para el hero (nombre + posición aproximada, decorativo)
@@ -120,15 +126,15 @@ get_header(); ?>
     </div>
 
     <div class="relative z-10 mx-auto max-w-3xl px-4 text-center">
-      <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0" data-en="Service Areas" data-es="Áreas de Servicio">Service Areas</p>
-      <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] md:text-6xl" data-en="Roofing Services Across Greater Houston" data-es="Servicios de Techado en Toda el Área de Houston">
+      <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0" data-en="Service Areas" data-es="Áreas de Servicio" data-vi="Khu Vực Phục Vụ">Service Areas</p>
+      <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] md:text-6xl" data-en="Roofing Services Across Greater Houston" data-es="Servicios de Techado en Toda el Área de Houston" data-vi="Dịch Vụ Lợp Mái Khắp Khu Vực Houston">
         <?php
           $hero_words = explode(' ', 'Roofing Services Across Greater Houston');
           foreach ($hero_words as $i => $word) : ?>
             <span class="ur-word"><span class="ur-word__inner" style="--i:<?php echo (int) $i; ?>"><?php echo esc_html($word); ?></span></span><?php echo ' '; ?>
           <?php endforeach; ?>
       </h1>
-      <p class="ur-fade-in-2 mx-auto mt-6 max-w-2xl text-base leading-7 text-white/78 md:text-lg" data-en="From premium neighborhoods to storm-affected communities, Urena Roofing Contractor proudly serves homeowners, HOAs, and businesses throughout the Houston metro area." data-es="Desde vecindarios premium hasta comunidades afectadas por tormentas, Ureña Roofing Contractor atiende con orgullo a propietarios, HOAs y negocios en toda el área metropolitana de Houston.">
+      <p class="ur-fade-in-2 mx-auto mt-6 max-w-2xl text-base leading-7 text-white/78 md:text-lg" data-en="From premium neighborhoods to storm-affected communities, Urena Roofing Contractor proudly serves homeowners, HOAs, and businesses throughout the Houston metro area." data-es="Desde vecindarios premium hasta comunidades afectadas por tormentas, Ureña Roofing Contractor atiende con orgullo a propietarios, HOAs y negocios en toda el área metropolitana de Houston." data-vi="Từ các khu dân cư cao cấp đến các cộng đồng chịu ảnh hưởng bởi bão, Urena Roofing Contractor tự hào phục vụ chủ nhà, HOA và doanh nghiệp trên khắp khu vực đô thị Houston.">
         From premium neighborhoods to storm-affected communities, Urena Roofing Contractor proudly
         serves homeowners, HOAs, and businesses throughout the Houston metro area.
       </p>
@@ -141,9 +147,9 @@ get_header(); ?>
   <section class="relative overflow-hidden bg-white py-20 lg:py-24">
     <div class="mx-auto max-w-7xl px-4">
       <div class="ur-reveal-up max-w-2xl">
-        <p class="ur-eyebrow" data-en="Service Areas" data-es="Áreas de Servicio">Service Areas</p>
-        <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Explore Coverage By Area" data-es="Explora la Cobertura por Área">Explore Coverage By Area</h2>
-        <p class="mt-4 text-base leading-7 text-[#5B5F6B]" data-en="Three ways we show up for Houston. Pick a category to see the neighborhoods inside it." data-es="Tres formas en que estamos presentes en Houston. Elige una categoría para ver los vecindarios que incluye.">Three ways we show up for Houston. Pick a category to see the neighborhoods inside it.</p>
+        <p class="ur-eyebrow" data-en="Service Areas" data-es="Áreas de Servicio" data-vi="Khu Vực Phục Vụ">Service Areas</p>
+        <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Explore Coverage By Area" data-es="Explora la Cobertura por Área" data-vi="Khám Phá Phạm Vi Phục Vụ Theo Khu Vực">Explore Coverage By Area</h2>
+        <p class="mt-4 text-base leading-7 text-[#5B5F6B]" data-en="Three ways we show up for Houston. Pick a category to see the neighborhoods inside it." data-es="Tres formas en que estamos presentes en Houston. Elige una categoría para ver los vecindarios que incluye." data-vi="Ba cách chúng tôi hiện diện tại Houston. Chọn một hạng mục để xem các khu dân cư trong đó.">Three ways we show up for Houston. Pick a category to see the neighborhoods inside it.</p>
       </div>
 
       <div class="ur-sa-tabs js-ur-sa-tabs ur-reveal-up mt-10" role="tablist" aria-label="Service area categories" style="grid-template-columns:repeat(<?php echo count($blocks); ?>,1fr)">
@@ -160,7 +166,7 @@ get_header(); ?>
             data-index="<?php echo (int) $bi; ?>"
           >
             <span class="ur-sa-tabs__num"><?php echo esc_html(str_pad($bi + 1, 2, '0', STR_PAD_LEFT)); ?></span>
-            <span class="ur-sa-tabs__label" data-en="<?php echo esc_attr($block['label']); ?>" data-es="<?php echo esc_attr($block['label_es']); ?>"><?php echo esc_html($block['label']); ?></span>
+            <span class="ur-sa-tabs__label" data-en="<?php echo esc_attr($block['label']); ?>" data-es="<?php echo esc_attr($block['label_es']); ?>" data-vi="<?php echo esc_attr($block['label_vi']); ?>"><?php echo esc_html($block['label']); ?></span>
             <span class="ur-sa-tabs__count"><?php echo count($block['areas']); ?></span>
           </button>
         <?php endforeach; ?>
@@ -174,7 +180,7 @@ get_header(); ?>
           aria-labelledby="ur-sa-tab-<?php echo esc_attr($block['key']); ?>"
           <?php echo $bi !== 0 ? 'hidden' : ''; ?>
         >
-          <p class="ur-sa-panel__intro"><span data-en="<?php echo esc_attr($block['intro']); ?>" data-es="<?php echo esc_attr($block['intro_es']); ?>"><?php echo esc_html($block['intro']); ?></span></p>
+          <p class="ur-sa-panel__intro"><span data-en="<?php echo esc_attr($block['intro']); ?>" data-es="<?php echo esc_attr($block['intro_es']); ?>" data-vi="<?php echo esc_attr($block['intro_vi']); ?>"><?php echo esc_html($block['intro']); ?></span></p>
 
           <div class="ur-sa-panel__grid<?php echo count($block['areas']) === 4 ? ' ur-sa-panel__grid--pair' : ''; ?>">
             <?php foreach ($block['areas'] as $area) :
@@ -196,10 +202,10 @@ get_header(); ?>
                 </div>
 
                 <div class="ur-area-card__body">
-                  <span class="ur-area-card__tag"><?php echo $icon($area['icon'], 'h-3.5 w-3.5'); ?><span data-en="<?php echo esc_attr($area['tag']); ?>" data-es="<?php echo esc_attr($area['tag_es']); ?>"><?php echo esc_html($area['tag']); ?></span> &middot; <?php echo esc_html($address_label); ?></span>
+                  <span class="ur-area-card__tag"><?php echo $icon($area['icon'], 'h-3.5 w-3.5'); ?><span data-en="<?php echo esc_attr($area['tag']); ?>" data-es="<?php echo esc_attr($area['tag_es']); ?>" data-vi="<?php echo esc_attr($area['tag_vi']); ?>"><?php echo esc_html($area['tag']); ?></span> &middot; <?php echo esc_html($address_label); ?></span>
                   <h3 class="ur-area-card__name"><?php echo esc_html($area['name']); ?></h3>
-                  <p class="ur-area-card__copy"><span data-en="<?php echo esc_attr($area['copy']); ?>" data-es="<?php echo esc_attr($area['copy_es']); ?>"><?php echo esc_html($area['copy']); ?></span></p>
-                  <span class="ur-area-card__cta"><span data-en="View on Google Maps" data-es="Ver en Google Maps">View on Google Maps</span> <?php echo $icon('external', 'h-3.5 w-3.5'); ?></span>
+                  <p class="ur-area-card__copy"><span data-en="<?php echo esc_attr($area['copy']); ?>" data-es="<?php echo esc_attr($area['copy_es']); ?>" data-vi="<?php echo esc_attr($area['copy_vi']); ?>"><?php echo esc_html($area['copy']); ?></span></p>
+                  <span class="ur-area-card__cta"><span data-en="View on Google Maps" data-es="Ver en Google Maps" data-vi="Xem trên Google Maps">View on Google Maps</span> <?php echo $icon('external', 'h-3.5 w-3.5'); ?></span>
                 </div>
               </a>
             <?php endforeach; ?>
@@ -220,11 +226,11 @@ get_header(); ?>
         <span class="ur-sa-b2b__icon"><?php echo $icon('users', 'h-6 w-6'); ?></span>
       </div>
       <div class="ur-reveal-right">
-        <p class="ur-eyebrow ur-eyebrow--light" data-en="B2B &amp; Communities" data-es="B2B y Comunidades">B2B &amp; Communities</p>
-        <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] md:text-4xl" data-en="Serving HOAs, Churches, and Multifamily Communities" data-es="Atendemos HOAs, Iglesias y Comunidades Multifamiliares">
+        <p class="ur-eyebrow ur-eyebrow--light" data-en="B2B &amp; Communities" data-es="B2B y Comunidades" data-vi="B2B &amp; Cộng Đồng">B2B &amp; Communities</p>
+        <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] md:text-4xl" data-en="Serving HOAs, Churches, and Multifamily Communities" data-es="Atendemos HOAs, Iglesias y Comunidades Multifamiliares" data-vi="Phục Vụ HOA, Nhà Thờ và Cộng Đồng Đa Hộ Gia Đình">
           Serving HOAs, Churches, and Multifamily Communities
         </h2>
-        <p class="mt-4 max-w-2xl text-base leading-7 text-white/78" data-en="We work with HOA boards, church administrators, and property managers across Houston to provide scheduled inspections, maintenance contracts, and fast, documented repairs, with zero surprises." data-es="Trabajamos con juntas de HOA, administradores de iglesias y administradores de propiedades en todo Houston para ofrecer inspecciones programadas, contratos de mantenimiento y reparaciones rápidas y documentadas, sin sorpresas.">
+        <p class="mt-4 max-w-2xl text-base leading-7 text-white/78" data-en="We work with HOA boards, church administrators, and property managers across Houston to provide scheduled inspections, maintenance contracts, and fast, documented repairs, with zero surprises." data-es="Trabajamos con juntas de HOA, administradores de iglesias y administradores de propiedades en todo Houston para ofrecer inspecciones programadas, contratos de mantenimiento y reparaciones rápidas y documentadas, sin sorpresas." data-vi="Chúng tôi hợp tác với ban quản trị HOA, quản lý nhà thờ và quản lý bất động sản trên khắp Houston để cung cấp các đợt kiểm tra định kỳ, hợp đồng bảo trì, và sửa chữa nhanh chóng, có hồ sơ đầy đủ, không phát sinh bất ngờ.">
           We work with HOA boards, church administrators, and property managers across Houston to
           provide scheduled inspections, maintenance contracts, and fast, documented repairs,
           with zero surprises.
@@ -239,8 +245,8 @@ get_header(); ?>
   <section class="relative overflow-hidden bg-[#EEF1F5] py-20 lg:py-24">
     <div class="mx-auto max-w-3xl px-4">
       <div class="ur-reveal-up text-center">
-        <p class="ur-eyebrow" data-en="FAQ" data-es="Preguntas Frecuentes">FAQ</p>
-        <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Coverage Questions" data-es="Preguntas Sobre Cobertura">Coverage Questions</h2>
+        <p class="ur-eyebrow" data-en="FAQ" data-es="Preguntas Frecuentes" data-vi="Câu Hỏi Thường Gặp">FAQ</p>
+        <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Coverage Questions" data-es="Preguntas Sobre Cobertura" data-vi="Câu Hỏi Về Phạm Vi Phục Vụ">Coverage Questions</h2>
       </div>
 
       <div class="js-ur-faq ur-reveal-up mt-10 space-y-3">
@@ -248,10 +254,10 @@ get_header(); ?>
           <div class="ur-faq-item">
             <button type="button" class="js-ur-faq-trigger ur-faq-item__trigger">
               <span class="ur-faq-item__icon"><?php echo $icon('plus', 'h-4 w-4'); ?></span>
-              <span data-en="<?php echo esc_attr($faq['q']); ?>" data-es="<?php echo esc_attr($faq['q_es']); ?>"><?php echo esc_html($faq['q']); ?></span>
+              <span data-en="<?php echo esc_attr($faq['q']); ?>" data-es="<?php echo esc_attr($faq['q_es']); ?>" data-vi="<?php echo esc_attr($faq['q_vi']); ?>"><?php echo esc_html($faq['q']); ?></span>
             </button>
             <div class="ur-faq-item__panel">
-              <p><span data-en="<?php echo esc_attr($faq['a']); ?>" data-es="<?php echo esc_attr($faq['a_es']); ?>"><?php echo esc_html($faq['a']); ?></span></p>
+              <p><span data-en="<?php echo esc_attr($faq['a']); ?>" data-es="<?php echo esc_attr($faq['a_es']); ?>" data-vi="<?php echo esc_attr($faq['a_vi']); ?>"><?php echo esc_html($faq['a']); ?></span></p>
             </div>
           </div>
         <?php endforeach; ?>
@@ -276,12 +282,12 @@ get_header(); ?>
   <!-- ============================================================ -->
   <section class="relative overflow-hidden bg-white py-20 text-center lg:py-24">
     <div class="relative mx-auto max-w-2xl px-4">
-      <h2 class="ur-reveal-up text-3xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="Don't See Your Area Listed? We Probably Still Cover It." data-es="¿No Ves tu Área en la Lista? Probablemente Igual la Cubrimos.">
+      <h2 class="ur-reveal-up text-3xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="Don't See Your Area Listed? We Probably Still Cover It." data-es="¿No Ves tu Área en la Lista? Probablemente Igual la Cubrimos." data-vi="Không Thấy Khu Vực Của Bạn Trong Danh Sách? Có Thể Chúng Tôi Vẫn Phục Vụ.">
         Don't See Your Area Listed? We Probably Still Cover It.
       </h2>
       <div class="ur-reveal-up mt-9">
         <a href="/contact" class="ur-btn ur-btn-dark ur-magnetic inline-flex items-center justify-center gap-2 px-8 py-4 text-sm font-black uppercase tracking-[0.12em] text-white">
-          <span data-en="Contact Us to Confirm Coverage" data-es="Contáctanos para Confirmar Cobertura">Contact Us to Confirm Coverage</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
+          <span data-en="Contact Us to Confirm Coverage" data-es="Contáctanos para Confirmar Cobertura" data-vi="Liên Hệ Để Xác Nhận Phạm Vi Phục Vụ">Contact Us to Confirm Coverage</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
         </a>
       </div>
     </div>

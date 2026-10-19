@@ -40,8 +40,10 @@ get_header(); ?>
         'icon'  => 'home',
         'title' => 'Residential Roof Replacement',
         'title_es' => 'Reemplazo de Techo Residencial',
+        'title_vi' => 'Thay Mái Nhà Ở',
         'copy'  => 'Full roof replacements built to protect your home for decades, using premium, storm-resistant materials.',
         'copy_es' => 'Reemplazos completos de techo, hechos para proteger tu hogar por décadas, usando materiales premium resistentes a tormentas.',
+        'copy_vi' => 'Thay mái nhà toàn diện, được thực hiện để bảo vệ ngôi nhà của bạn trong nhiều thập kỷ, sử dụng vật liệu cao cấp chống chịu bão tốt.',
         'image' => $img . 'Copia-de-DJI_20260610190636_0019_D-scaled.jpg',
         'link'  => '/services/residential-roof-replacement',
       ],
@@ -49,8 +51,10 @@ get_header(); ?>
         'icon'  => 'cloud',
         'title' => 'Storm & Hail Damage Repair',
         'title_es' => 'Reparación de Daños por Tormenta y Granizo',
+        'title_vi' => 'Sửa Chữa Hư Hỏng Do Bão & Mưa Đá',
         'copy'  => "Fast, insurance-ready repairs after Houston's toughest storms — fully HB2102 compliant.",
         'copy_es' => 'Reparaciones rápidas y listas para el seguro después de las peores tormentas de Houston — en total cumplimiento con HB2102.',
+        'copy_vi' => 'Sửa chữa nhanh chóng, sẵn sàng hồ sơ bảo hiểm sau những trận bão khắc nghiệt nhất của Houston — tuân thủ đầy đủ luật HB2102.',
         'image' => $img . 'IMG-20250218-WA0015.jpg',
         'link'  => '/services/storm-hail-damage-repair',
       ],
@@ -58,8 +62,10 @@ get_header(); ?>
         'icon'  => 'clipboard',
         'title' => 'Roof Maintenance & Inspections',
         'title_es' => 'Mantenimiento e Inspecciones de Techo',
+        'title_vi' => 'Bảo Trì & Kiểm Tra Mái Nhà',
         'copy'  => 'Preventive care and scheduled inspections that catch small problems before they become costly ones.',
         'copy_es' => 'Cuidado preventivo e inspecciones programadas que detectan problemas pequeños antes de que se vuelvan costosos.',
+        'copy_vi' => 'Chăm sóc phòng ngừa và kiểm tra định kỳ giúp phát hiện sớm các vấn đề nhỏ trước khi chúng trở nên tốn kém.',
         'image' => $img . 'Copia-de-DJI_20260610064949_0032_D-scaled.jpg',
         'link'  => '/services/roof-maintenance-inspections',
       ],
@@ -68,8 +74,10 @@ get_header(); ?>
       //   'icon'  => 'building',
       //   'title' => 'Commercial & Flat Roofing',
       //   'title_es' => 'Techado Comercial y Plano',
+      //   'title_vi' => 'Mái Nhà Thương Mại & Mái Bằng',
       //   'copy'  => 'Reliable, low-disruption roofing solutions for businesses, offices, and flat-roof properties.',
       //   'copy_es' => 'Soluciones de techado confiables y de bajo impacto para negocios, oficinas y propiedades de techo plano.',
+      //   'copy_vi' => 'Giải pháp lợp mái đáng tin cậy, ít gây gián đoạn cho doanh nghiệp, văn phòng và các công trình mái bằng.',
       //   'image' => $img . 'Copia-de-DJI_20260610064620_0008_D-scaled.jpg',
       //   'link'  => '/services/commercial-flat-roofing',
       // ],
@@ -77,8 +85,10 @@ get_header(); ?>
         'icon'  => 'users',
         'title' => 'HOA Roofing Maintenance Programs',
         'title_es' => 'Programas de Mantenimiento de Techado para HOA',
+        'title_vi' => 'Chương Trình Bảo Trì Mái Nhà cho HOA',
         'copy'  => 'Scheduled inspections, documented reporting, and maintenance contracts built for communities of any size.',
         'copy_es' => 'Inspecciones programadas, reportes documentados y contratos de mantenimiento para comunidades de cualquier tamaño.',
+        'copy_vi' => 'Kiểm tra định kỳ, báo cáo đầy đủ hồ sơ và hợp đồng bảo trì được thiết kế cho cộng đồng dân cư với mọi quy mô.',
         'image' => $img . 'Copia-de-IMG-20250902-WA0046.jpg',
         'link'  => '/services/hoa-roofing-programs',
       ],
@@ -94,15 +104,15 @@ get_header(); ?>
     <span class="ur-hud-corner ur-hud-corner--br" aria-hidden="true"></span>
 
     <div class="relative mx-auto max-w-3xl px-4 text-center">
-      <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0"><span data-en="Our Services" data-es="Nuestros Servicios">Our Services</span></p>
-      <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] md:text-6xl" data-en="Professional Roofing Services in Houston, TX" data-es="Servicios de Techado Profesionales en Houston, TX">
+      <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0"><span data-en="Our Services" data-es="Nuestros Servicios" data-vi="Dịch Vụ Của Chúng Tôi">Our Services</span></p>
+      <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] md:text-6xl" data-en="Professional Roofing Services in Houston, TX" data-es="Servicios de Techado Profesionales en Houston, TX" data-vi="Dịch Vụ Lợp Mái Chuyên Nghiệp tại Houston, TX">
         <?php
           $hero_words = explode(' ', 'Professional Roofing Services in Houston, TX');
           foreach ($hero_words as $i => $word) : ?>
             <span class="ur-word"><span class="ur-word__inner" style="--i:<?php echo (int) $i; ?>"><?php echo esc_html($word); ?></span></span><?php echo ' '; ?>
           <?php endforeach; ?>
       </h1>
-      <p class="ur-fade-in-2 mx-auto mt-6 max-w-2xl text-base leading-7 text-white/78 md:text-lg" data-en="Every project — residential, commercial, or HOA — is handled with the same commitment to quality, documentation, and legal compliance." data-es="Cada proyecto —residencial, comercial o de HOA— se maneja con el mismo compromiso a la calidad, documentación y cumplimiento legal.">
+      <p class="ur-fade-in-2 mx-auto mt-6 max-w-2xl text-base leading-7 text-white/78 md:text-lg" data-en="Every project — residential, commercial, or HOA — is handled with the same commitment to quality, documentation, and legal compliance." data-es="Cada proyecto —residencial, comercial o de HOA— se maneja con el mismo compromiso a la calidad, documentación y cumplimiento legal." data-vi="Mọi dự án — nhà ở, thương mại hay HOA — đều được thực hiện với cùng cam kết về chất lượng, hồ sơ đầy đủ và tuân thủ pháp luật.">
         Every project — residential, commercial, or HOA — is handled with the same commitment to
         quality, documentation, and legal compliance.
       </p>
@@ -118,14 +128,14 @@ get_header(); ?>
         <?php foreach ($services as $i => $s) : ?>
           <a href="<?php echo esc_url($s['link']); ?>" class="ur-reveal-stagger ur-svc-card group">
             <div class="ur-svc-card__media relative h-[210px] overflow-hidden">
-              <img src="<?php echo esc_url($s['image']); ?>" alt="<?php echo esc_attr($s['title']); ?> — Urena Roofing Contractor" data-en-alt="<?php echo esc_attr($s['title']); ?> — Urena Roofing Contractor" data-es-alt="<?php echo esc_attr($s['title_es']); ?> — Ureña Roofing Contractor" class="h-full w-full object-cover transition duration-700 group-hover:scale-[1.07]" loading="lazy">
+              <img src="<?php echo esc_url($s['image']); ?>" alt="<?php echo esc_attr($s['title']); ?> — Urena Roofing Contractor" data-en-alt="<?php echo esc_attr($s['title']); ?> — Urena Roofing Contractor" data-es-alt="<?php echo esc_attr($s['title_es']); ?> — Ureña Roofing Contractor" data-vi-alt="<?php echo esc_attr($s['title_vi']); ?> — Urena Roofing Contractor" class="h-full w-full object-cover transition duration-700 group-hover:scale-[1.07]" loading="lazy">
               <span class="ur-svc-card__icon"><?php echo $icon($s['icon'], 'h-5 w-5'); ?></span>
             </div>
             <div class="p-6">
-              <h3 class="text-lg font-black uppercase tracking-[-0.005em] text-[#12103A]"><span data-en="<?php echo esc_attr($s['title']); ?>" data-es="<?php echo esc_attr($s['title_es']); ?>"><?php echo esc_html($s['title']); ?></span></h3>
-              <p class="mt-2 text-[14px] leading-6 text-[#5B5F6B]"><span data-en="<?php echo esc_attr($s['copy']); ?>" data-es="<?php echo esc_attr($s['copy_es']); ?>"><?php echo esc_html($s['copy']); ?></span></p>
+              <h3 class="text-lg font-black uppercase tracking-[-0.005em] text-[#12103A]"><span data-en="<?php echo esc_attr($s['title']); ?>" data-es="<?php echo esc_attr($s['title_es']); ?>" data-vi="<?php echo esc_attr($s['title_vi']); ?>"><?php echo esc_html($s['title']); ?></span></h3>
+              <p class="mt-2 text-[14px] leading-6 text-[#5B5F6B]"><span data-en="<?php echo esc_attr($s['copy']); ?>" data-es="<?php echo esc_attr($s['copy_es']); ?>" data-vi="<?php echo esc_attr($s['copy_vi']); ?>"><?php echo esc_html($s['copy']); ?></span></p>
               <span class="ur-svc-card__link mt-4 inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-[0.1em] text-[#12103A]">
-                <span data-en="Learn More" data-es="Ver Más">Learn More</span> <?php echo $icon('arrow', 'h-3.5 w-3.5'); ?>
+                <span data-en="Learn More" data-es="Ver Más" data-vi="Xem Thêm">Learn More</span> <?php echo $icon('arrow', 'h-3.5 w-3.5'); ?>
               </span>
             </div>
           </a>
@@ -139,9 +149,9 @@ get_header(); ?>
   <!-- ============================================================ -->
   <section class="relative overflow-hidden bg-[#EEF1F5] py-16 text-center">
     <div class="ur-reveal-up mx-auto max-w-xl px-4">
-      <p class="text-base leading-7 text-[#5B5F6B]"><span data-en="Not sure which service fits your project?" data-es="¿No sabes qué servicio se ajusta a tu proyecto?">Not sure which service fits your project?</span></p>
+      <p class="text-base leading-7 text-[#5B5F6B]"><span data-en="Not sure which service fits your project?" data-es="¿No sabes qué servicio se ajusta a tu proyecto?" data-vi="Chưa chắc dịch vụ nào phù hợp với dự án của bạn?">Not sure which service fits your project?</span></p>
       <a href="/contact" class="ur-btn ur-btn-dark ur-magnetic mt-5 inline-flex items-center justify-center gap-2 px-7 py-4 text-sm font-black uppercase tracking-[0.12em] text-white">
-        <span data-en="Get a Free Estimate" data-es="Obtén un Estimado Gratis">Get a Free Estimate</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
+        <span data-en="Get a Free Estimate" data-es="Obtén un Estimado Gratis" data-vi="Nhận Báo Giá Miễn Phí">Get a Free Estimate</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
       </a>
     </div>
   </section>

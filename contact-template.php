@@ -42,12 +42,12 @@ get_header(); ?>
     // DATA
     // ------------------------------------------------------------
     $service_options = [
-      ['en' => 'Residential Roof Replacement', 'es' => 'Reemplazo de Techo Residencial'],
-      ['en' => 'Storm & Hail Damage Repair', 'es' => 'Reparación de Daños por Tormenta y Granizo'],
-      ['en' => 'Roof Maintenance & Inspections', 'es' => 'Mantenimiento e Inspecciones de Techo'],
-      // ['en' => 'Commercial & Flat Roofing', 'es' => 'Techado Comercial y Plano'], // Temporalmente oculto a pedido del cliente.
-      ['en' => 'HOA Roofing Programs', 'es' => 'Programas de Techado para HOA'],
-      ['en' => 'Not Sure Yet', 'es' => 'Aún No Estoy Seguro'],
+      ['en' => 'Residential Roof Replacement', 'es' => 'Reemplazo de Techo Residencial', 'vi' => 'Thay Mái Nhà Ở'],
+      ['en' => 'Storm & Hail Damage Repair', 'es' => 'Reparación de Daños por Tormenta y Granizo', 'vi' => 'Sửa Chữa Hư Hỏng Do Bão & Mưa Đá'],
+      ['en' => 'Roof Maintenance & Inspections', 'es' => 'Mantenimiento e Inspecciones de Techo', 'vi' => 'Bảo Trì & Kiểm Tra Mái Nhà'],
+      // ['en' => 'Commercial & Flat Roofing', 'es' => 'Techado Comercial y Plano', 'vi' => 'Mái Nhà Thương Mại & Mái Bằng'], // Temporalmente oculto a pedido del cliente.
+      ['en' => 'HOA Roofing Programs', 'es' => 'Programas de Techado para HOA', 'vi' => 'Chương Trình Mái Nhà cho HOA'],
+      ['en' => 'Not Sure Yet', 'es' => 'Aún No Estoy Seguro', 'vi' => 'Chưa Chắc Chắn'],
     ];
 
     $office_address = '3648 Cypress Creek Pkwy Ste 225, Houston, TX 77068, United States';
@@ -55,10 +55,10 @@ get_header(); ?>
     $map_link       = 'https://www.google.com/maps/search/?api=1&query=' . rawurlencode($office_address);
 
     $contact_faqs = [
-      ['q' => 'How fast will someone respond after I submit the form?', 'q_es' => '¿Qué tan rápido responderán después de que envíe el formulario?', 'a' => 'We aim to respond within 24 hours, often sooner for storm and emergency calls.', 'a_es' => 'Nuestro objetivo es responder dentro de 24 horas, muchas veces antes para llamadas de tormenta y emergencias.'],
-      ['q' => 'Is the estimate really free?', 'q_es' => '¿El estimado es realmente gratis?', 'a' => 'Yes. Every inspection and estimate is free, with no obligation to move forward.', 'a_es' => 'Sí. Cada inspección y estimado es gratuito, sin ninguna obligación de continuar.'],
-      ['q' => 'Can I call instead of filling out the form?', 'q_es' => '¿Puedo llamar en lugar de llenar el formulario?', 'a' => 'Absolutely. Call or text us at (832) 739-2842, or email info@urenaroofing.com.', 'a_es' => 'Claro que sí. Llámanos o envíanos un mensaje de texto al (832) 739-2842, o escríbenos a info@urenaroofing.com.'],
-      ['q' => 'Do you offer emergency service after a storm?', 'q_es' => '¿Ofrecen servicio de emergencia después de una tormenta?', 'a' => 'Yes. Storm damage doesn\'t wait, and neither do we. Reach out any time and we\'ll prioritize your call.', 'a_es' => 'Sí. Los daños por tormenta no esperan, y nosotros tampoco. Contáctanos en cualquier momento y le daremos prioridad a tu llamada.'],
+      ['q' => 'How fast will someone respond after I submit the form?', 'q_es' => '¿Qué tan rápido responderán después de que envíe el formulario?', 'q_vi' => 'Chúng tôi sẽ phản hồi nhanh như thế nào sau khi tôi gửi biểu mẫu?', 'a' => 'We aim to respond within 24 hours, often sooner for storm and emergency calls.', 'a_es' => 'Nuestro objetivo es responder dentro de 24 horas, muchas veces antes para llamadas de tormenta y emergencias.', 'a_vi' => 'Chúng tôi cố gắng phản hồi trong vòng 24 giờ, thường sớm hơn đối với các cuộc gọi về bão hoặc khẩn cấp.'],
+      ['q' => 'Is the estimate really free?', 'q_es' => '¿El estimado es realmente gratis?', 'q_vi' => 'Báo giá có thực sự miễn phí không?', 'a' => 'Yes. Every inspection and estimate is free, with no obligation to move forward.', 'a_es' => 'Sí. Cada inspección y estimado es gratuito, sin ninguna obligación de continuar.', 'a_vi' => 'Có. Mọi lần kiểm tra và báo giá đều miễn phí, không có bất kỳ ràng buộc nào phải tiếp tục.'],
+      ['q' => 'Can I call instead of filling out the form?', 'q_es' => '¿Puedo llamar en lugar de llenar el formulario?', 'q_vi' => 'Tôi có thể gọi điện thay vì điền biểu mẫu không?', 'a' => 'Absolutely. Call or text us at (832) 739-2842, or email info@urenaroofing.com.', 'a_es' => 'Claro que sí. Llámanos o envíanos un mensaje de texto al (832) 739-2842, o escríbenos a info@urenaroofing.com.', 'a_vi' => 'Chắc chắn rồi. Hãy gọi hoặc nhắn tin cho chúng tôi theo số (832) 739-2842, hoặc gửi email đến info@urenaroofing.com.'],
+      ['q' => 'Do you offer emergency service after a storm?', 'q_es' => '¿Ofrecen servicio de emergencia después de una tormenta?', 'q_vi' => 'Quý công ty có dịch vụ khẩn cấp sau bão không?', 'a' => 'Yes. Storm damage doesn\'t wait, and neither do we. Reach out any time and we\'ll prioritize your call.', 'a_es' => 'Sí. Los daños por tormenta no esperan, y nosotros tampoco. Contáctanos en cualquier momento y le daremos prioridad a tu llamada.', 'a_vi' => 'Có. Thiệt hại do bão không thể chờ đợi, và chúng tôi cũng vậy. Hãy liên hệ với chúng tôi bất cứ lúc nào, chúng tôi sẽ ưu tiên xử lý cuộc gọi của bạn.'],
     ];
   ?>
 
@@ -70,15 +70,15 @@ get_header(); ?>
     <div class="ur-contact-hero__scrim absolute inset-0"></div>
 
     <div class="relative z-10 mx-auto max-w-3xl px-4 text-center">
-      <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0" data-en="Contact" data-es="Contacto">Contact</p>
-      <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] md:text-6xl" data-en="Let's Talk About Your Roof" data-es="Hablemos de tu Techo">
+      <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0" data-en="Contact" data-es="Contacto" data-vi="Liên Hệ">Contact</p>
+      <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] md:text-6xl" data-en="Let's Talk About Your Roof" data-es="Hablemos de tu Techo" data-vi="Cùng Trao Đổi Về Mái Nhà Của Bạn">
         <?php
           $hero_words = explode(' ', "Let's Talk About Your Roof");
           foreach ($hero_words as $i => $word) : ?>
             <span class="ur-word"><span class="ur-word__inner" style="--i:<?php echo (int) $i; ?>"><?php echo esc_html($word); ?></span></span><?php echo ' '; ?>
           <?php endforeach; ?>
       </h1>
-      <p class="ur-fade-in-2 mx-auto mt-6 max-w-2xl text-base leading-7 text-white/82 md:text-lg" data-en="Whether it's an emergency repair or a new roof, our team is ready to help: call, message, or request a free estimate below." data-es="Ya sea una reparación de emergencia o un techo nuevo, nuestro equipo está listo para ayudarte: llama, envíanos un mensaje o solicita un estimado gratis abajo.">
+      <p class="ur-fade-in-2 mx-auto mt-6 max-w-2xl text-base leading-7 text-white/82 md:text-lg" data-en="Whether it's an emergency repair or a new roof, our team is ready to help: call, message, or request a free estimate below." data-es="Ya sea una reparación de emergencia o un techo nuevo, nuestro equipo está listo para ayudarte: llama, envíanos un mensaje o solicita un estimado gratis abajo." data-vi="Dù là sửa chữa khẩn cấp hay lắp mái mới, đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ: hãy gọi điện, nhắn tin, hoặc yêu cầu báo giá miễn phí bên dưới.">
         Whether it's an emergency repair or a new roof, our team is ready to help: call, message,
         or request a free estimate below.
       </p>
@@ -100,14 +100,14 @@ get_header(); ?>
           <span class="ur-hud-corner ur-hud-corner--br" aria-hidden="true"></span>
 
           <div class="ur-contact-info__content">
-            <p class="ur-eyebrow ur-eyebrow--light" data-en="Reach Us Directly" data-es="Contáctanos Directamente">Reach Us Directly</p>
-            <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-white md:text-3xl" data-en="Get in Touch" data-es="Ponte en Contacto">Get in Touch</h2>
+            <p class="ur-eyebrow ur-eyebrow--light" data-en="Reach Us Directly" data-es="Contáctanos Directamente" data-vi="Liên Hệ Trực Tiếp">Reach Us Directly</p>
+            <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-white md:text-3xl" data-en="Get in Touch" data-es="Ponte en Contacto" data-vi="Liên Hệ Ngay">Get in Touch</h2>
 
             <ul class="mt-8 space-y-5">
               <li class="ur-reveal-stagger ur-contact-row">
                 <span class="ur-contact-row__icon ur-contact-row__icon--pulse"><?php echo $icon('phone', 'h-5 w-5'); ?></span>
                 <div>
-                  <p class="ur-contact-row__label" data-en="Phone" data-es="Teléfono">Phone</p>
+                  <p class="ur-contact-row__label" data-en="Phone" data-es="Teléfono" data-vi="Điện Thoại">Phone</p>
                   <a href="tel:+18327392842" class="ur-contact-row__value">(832) 739-2842</a>
                   <a href="tel:+13464046431" class="ur-contact-row__value">(346) 404-6431</a>
                 </div>
@@ -115,14 +115,14 @@ get_header(); ?>
               <li class="ur-reveal-stagger ur-contact-row">
                 <span class="ur-contact-row__icon"><?php echo $icon('mail', 'h-5 w-5'); ?></span>
                 <div>
-                  <p class="ur-contact-row__label" data-en="Email" data-es="Correo Electrónico">Email</p>
+                  <p class="ur-contact-row__label" data-en="Email" data-es="Correo Electrónico" data-vi="Email">Email</p>
                   <a href="mailto:info@urenaroofing.com" class="ur-contact-row__value">info@urenaroofing.com</a>
                 </div>
               </li>
               <li class="ur-reveal-stagger ur-contact-row">
                 <span class="ur-contact-row__icon"><?php echo $icon('pin', 'h-5 w-5'); ?></span>
                 <div>
-                  <p class="ur-contact-row__label" data-en="Office" data-es="Oficina">Office</p>
+                  <p class="ur-contact-row__label" data-en="Office" data-es="Oficina" data-vi="Văn Phòng">Office</p>
                   <a href="<?php echo esc_url($map_link); ?>" target="_blank" rel="noopener noreferrer" class="ur-contact-row__value ur-contact-row__value--address">
                     3648 Cypress Creek Pkwy Ste 225<br>Houston, TX 77068, United States
                   </a>
@@ -131,8 +131,8 @@ get_header(); ?>
               <li class="ur-reveal-stagger ur-contact-row">
                 <span class="ur-contact-row__icon"><?php echo $icon('clock', 'h-5 w-5'); ?></span>
                 <div>
-                  <p class="ur-contact-row__label" data-en="Hours" data-es="Horario">Hours</p>
-                  <span class="ur-mono-tag ur-mono-tag--light" data-en="PENDING &middot; CONFIRM WITH CLIENT" data-es="PENDIENTE &middot; CONFIRMAR CON EL CLIENTE">PENDING &middot; CONFIRM WITH CLIENT</span>
+                  <p class="ur-contact-row__label" data-en="Hours" data-es="Horario" data-vi="Giờ Làm Việc">Hours</p>
+                  <span class="ur-mono-tag ur-mono-tag--light" data-en="PENDING &middot; CONFIRM WITH CLIENT" data-es="PENDIENTE &middot; CONFIRMAR CON EL CLIENTE" data-vi="ĐANG CHỜ &middot; XÁC NHẬN VỚI KHÁCH HÀNG">PENDING &middot; CONFIRM WITH CLIENT</span>
                 </div>
               </li>
             </ul>
@@ -155,37 +155,37 @@ get_header(); ?>
               data-submit-id="ur-contact-submit"
               data-form-source="Contact Page"
             >
-              <span class="ur-estimate-form__readout" data-en="REQUEST &middot; FREE ESTIMATE" data-es="SOLICITA &middot; ESTIMADO GRATIS">REQUEST &middot; FREE ESTIMATE</span>
-              <h3 class="ur-estimate-form__title" data-en="Request Your Free Estimate" data-es="Solicita tu Estimado Gratis">Request Your Free Estimate</h3>
+              <span class="ur-estimate-form__readout" data-en="REQUEST &middot; FREE ESTIMATE" data-es="SOLICITA &middot; ESTIMADO GRATIS" data-vi="YÊU CẦU &middot; BÁO GIÁ MIỄN PHÍ">REQUEST &middot; FREE ESTIMATE</span>
+              <h3 class="ur-estimate-form__title" data-en="Request Your Free Estimate" data-es="Solicita tu Estimado Gratis" data-vi="Yêu Cầu Báo Giá Miễn Phí">Request Your Free Estimate</h3>
 
               <div class="ur-estimate-form__grid">
                 <div class="ur-estimate-form__field">
-                  <label for="ur-contact-name"><span data-en="Full Name *" data-es="Nombre Completo *">Full Name *</span></label>
+                  <label for="ur-contact-name"><span data-en="Full Name *" data-es="Nombre Completo *" data-vi="Họ và Tên *">Full Name *</span></label>
                   <input id="ur-contact-name" type="text" name="full_name" placeholder="Your full name" required>
                 </div>
                 <div class="ur-estimate-form__field">
-                  <label for="ur-contact-phone"><span data-en="Phone Number *" data-es="Número de Teléfono *">Phone Number *</span></label>
+                  <label for="ur-contact-phone"><span data-en="Phone Number *" data-es="Número de Teléfono *" data-vi="Số Điện Thoại *">Phone Number *</span></label>
                   <input id="ur-contact-phone" type="tel" name="phone" placeholder="(832) 739-2842" required>
                 </div>
                 <div class="ur-estimate-form__field">
-                  <label for="ur-contact-email"><span data-en="Email Address *" data-es="Correo Electrónico *">Email Address *</span></label>
+                  <label for="ur-contact-email"><span data-en="Email Address *" data-es="Correo Electrónico *" data-vi="Địa Chỉ Email *">Email Address *</span></label>
                   <input id="ur-contact-email" type="email" name="email" placeholder="you@example.com" required>
                 </div>
                 <div class="ur-estimate-form__field">
-                  <label for="ur-contact-zip"><span data-en="Property ZIP / City *" data-es="Código Postal / Ciudad *">Property ZIP / City *</span></label>
+                  <label for="ur-contact-zip"><span data-en="Property ZIP / City *" data-es="Código Postal / Ciudad *" data-vi="Mã ZIP / Thành Phố *">Property ZIP / City *</span></label>
                   <input id="ur-contact-zip" type="text" name="zip" placeholder="77008 or Houston Heights" required>
                 </div>
                 <div class="ur-estimate-form__field ur-estimate-form__field--full">
-                  <label for="ur-contact-service"><span data-en="Service Needed *" data-es="Servicio Requerido *">Service Needed *</span></label>
+                  <label for="ur-contact-service"><span data-en="Service Needed *" data-es="Servicio Requerido *" data-vi="Dịch Vụ Cần Thiết *">Service Needed *</span></label>
                   <select id="ur-contact-service" name="service" required>
-                    <option value="" data-en="Select a service" data-es="Selecciona un servicio">Select a service</option>
+                    <option value="" data-en="Select a service" data-es="Selecciona un servicio" data-vi="Chọn một dịch vụ">Select a service</option>
                     <?php foreach ($service_options as $option) : ?>
-                      <option value="<?php echo esc_attr($option['en']); ?>" data-en="<?php echo esc_attr($option['en']); ?>" data-es="<?php echo esc_attr($option['es']); ?>"><?php echo esc_html($option['en']); ?></option>
+                      <option value="<?php echo esc_attr($option['en']); ?>" data-en="<?php echo esc_attr($option['en']); ?>" data-es="<?php echo esc_attr($option['es']); ?>" data-vi="<?php echo esc_attr($option['vi']); ?>"><?php echo esc_html($option['en']); ?></option>
                     <?php endforeach; ?>
                   </select>
                 </div>
                 <div class="ur-estimate-form__field ur-estimate-form__field--full">
-                  <label for="ur-contact-message"><span data-en="Message" data-es="Mensaje">Message</span></label>
+                  <label for="ur-contact-message"><span data-en="Message" data-es="Mensaje" data-vi="Tin Nhắn">Message</span></label>
                   <textarea id="ur-contact-message" name="message" rows="4" placeholder="Tell us a bit about the project..."></textarea>
                 </div>
               </div>
@@ -204,11 +204,11 @@ get_header(); ?>
 
               <label class="ur-estimate-form__check">
                 <input id="ur-contact-policy" type="checkbox" required>
-                <span data-en='I agree to the &lt;a href="/privacy-policy"&gt;Privacy Policy&lt;/a&gt; and &lt;a href="/terms-of-service"&gt;Terms of Service&lt;/a&gt;.' data-es='Acepto la &lt;a href="/privacy-policy"&gt;Política de Privacidad&lt;/a&gt; y los &lt;a href="/terms-of-service"&gt;Términos de Servicio&lt;/a&gt;.'>I agree to the <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-of-service">Terms of Service</a>.</span>
+                <span data-en='I agree to the &lt;a href="/privacy-policy"&gt;Privacy Policy&lt;/a&gt; and &lt;a href="/terms-of-service"&gt;Terms of Service&lt;/a&gt;.' data-es='Acepto la &lt;a href="/privacy-policy"&gt;Política de Privacidad&lt;/a&gt; y los &lt;a href="/terms-of-service"&gt;Términos de Servicio&lt;/a&gt;.' data-vi='Tôi đồng ý với &lt;a href="/privacy-policy"&gt;Chính Sách Bảo Mật&lt;/a&gt; và &lt;a href="/terms-of-service"&gt;Điều Khoản Dịch Vụ&lt;/a&gt;.'>I agree to the <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-of-service">Terms of Service</a>.</span>
               </label>
 
               <button id="ur-contact-submit" type="submit" class="ur-btn ur-btn-gold ur-magnetic ur-estimate-form__submit">
-                <span data-en="Send Request" data-es="Enviar Solicitud">Send Request</span>
+                <span data-en="Send Request" data-es="Enviar Solicitud" data-vi="Gửi Yêu Cầu">Send Request</span>
               </button>
             </form>
           </div>
@@ -225,11 +225,11 @@ get_header(); ?>
     <div class="mx-auto max-w-7xl px-4">
       <div class="ur-reveal-up flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p class="ur-eyebrow" data-en="Find Us" data-es="Encuéntranos">Find Us</p>
-          <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Our Office" data-es="Nuestra Oficina">Our Office</h2>
+          <p class="ur-eyebrow" data-en="Find Us" data-es="Encuéntranos" data-vi="Tìm Chúng Tôi">Find Us</p>
+          <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Our Office" data-es="Nuestra Oficina" data-vi="Văn Phòng Của Chúng Tôi">Our Office</h2>
         </div>
         <a href="<?php echo esc_url($map_link); ?>" target="_blank" rel="noopener noreferrer" class="ur-btn ur-btn-dark ur-magnetic inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-white">
-          <span data-en="Get Directions" data-es="Cómo Llegar">Get Directions</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
+          <span data-en="Get Directions" data-es="Cómo Llegar" data-vi="Chỉ Đường">Get Directions</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
         </a>
       </div>
 
@@ -249,8 +249,8 @@ get_header(); ?>
   <section class="relative overflow-hidden bg-[#EEF1F5] py-20 lg:py-24">
     <div class="mx-auto max-w-3xl px-4">
       <div class="ur-reveal-up text-center">
-        <p class="ur-eyebrow" data-en="FAQ" data-es="Preguntas Frecuentes">FAQ</p>
-        <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Before You Reach Out" data-es="Antes de Contactarnos">Before You Reach Out</h2>
+        <p class="ur-eyebrow" data-en="FAQ" data-es="Preguntas Frecuentes" data-vi="Câu Hỏi Thường Gặp">FAQ</p>
+        <h2 class="mt-3 text-2xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-[#12103A] md:text-4xl" data-en="Before You Reach Out" data-es="Antes de Contactarnos" data-vi="Trước Khi Liên Hệ">Before You Reach Out</h2>
       </div>
 
       <div class="js-ur-faq ur-reveal-up mt-10 space-y-3">
@@ -258,10 +258,10 @@ get_header(); ?>
           <div class="ur-faq-item">
             <button type="button" class="js-ur-faq-trigger ur-faq-item__trigger">
               <span class="ur-faq-item__icon"><?php echo $icon('plus', 'h-4 w-4'); ?></span>
-              <span data-en="<?php echo esc_attr($faq['q']); ?>" data-es="<?php echo esc_attr($faq['q_es']); ?>"><?php echo esc_html($faq['q']); ?></span>
+              <span data-en="<?php echo esc_attr($faq['q']); ?>" data-es="<?php echo esc_attr($faq['q_es']); ?>" data-vi="<?php echo esc_attr($faq['q_vi']); ?>"><?php echo esc_html($faq['q']); ?></span>
             </button>
             <div class="ur-faq-item__panel">
-              <p><span data-en="<?php echo esc_attr($faq['a']); ?>" data-es="<?php echo esc_attr($faq['a_es']); ?>"><?php echo esc_html($faq['a']); ?></span></p>
+              <p><span data-en="<?php echo esc_attr($faq['a']); ?>" data-es="<?php echo esc_attr($faq['a_es']); ?>" data-vi="<?php echo esc_attr($faq['a_vi']); ?>"><?php echo esc_html($faq['a']); ?></span></p>
             </div>
           </div>
         <?php endforeach; ?>
@@ -528,40 +528,50 @@ get_header(); ?>
         form.addEventListener("submit", function (e) {
           e.preventDefault();
           resetMessages();
-          const isEs = document.documentElement.lang === "es";
+          // t(en, es, vi): elige el texto según el idioma activo en <html lang="...">.
+          const lang = document.documentElement.lang;
+          const t = (en, es, vi) => (lang === "es" ? es : lang === "vi" ? vi : en);
 
           // Honeypot: si un bot llenó el campo oculto, se descarta el envío en
           // silencio (le mostramos el mismo mensaje de éxito para no delatarlo).
           if (honeypot && honeypot.value.trim() !== "") {
             form.reset();
-            return showSuccess(isEs
-              ? "Gracias. Tu solicitud ha sido enviada exitosamente. Nos pondremos en contacto pronto."
-              : "Thank you. Your request has been sent successfully. We'll be in touch soon.");
+            return showSuccess(t(
+              "Thank you. Your request has been sent successfully. We'll be in touch soon.",
+              "Gracias. Tu solicitud ha sido enviada exitosamente. Nos pondremos en contacto pronto.",
+              "Cảm ơn bạn. Yêu cầu của bạn đã được gửi thành công. Chúng tôi sẽ sớm liên hệ với bạn."
+            ));
           }
 
           if (!policyCheck.checked) {
-            return showError(isEs
-              ? "Por favor acepta la Política de Privacidad y los Términos de Servicio antes de enviar."
-              : "Please accept the Privacy Policy and Terms of Service before submitting.");
+            return showError(t(
+              "Please accept the Privacy Policy and Terms of Service before submitting.",
+              "Por favor acepta la Política de Privacidad y los Términos de Servicio antes de enviar.",
+              "Vui lòng đồng ý với Chính Sách Bảo Mật và Điều Khoản Dịch Vụ trước khi gửi."
+            ));
           }
 
           if (!form.checkValidity()) return form.reportValidity();
 
           if (typeof grecaptcha === "undefined") {
-            return showError(isEs
-              ? "El reCAPTCHA no se pudo cargar. Por favor recarga la página e intenta de nuevo."
-              : "reCAPTCHA failed to load. Please refresh the page and try again.");
+            return showError(t(
+              "reCAPTCHA failed to load. Please refresh the page and try again.",
+              "El reCAPTCHA no se pudo cargar. Por favor recarga la página e intenta de nuevo.",
+              "reCAPTCHA không tải được. Vui lòng làm mới trang và thử lại."
+            ));
           }
 
           if (!window.emailjs) {
-            return showError(isEs
-              ? "El formulario aún está cargando. Espera un momento e intenta de nuevo."
-              : "The form is still loading. Please wait a moment and try again.");
+            return showError(t(
+              "The form is still loading. Please wait a moment and try again.",
+              "El formulario aún está cargando. Espera un momento e intenta de nuevo.",
+              "Biểu mẫu vẫn đang tải. Vui lòng đợi một chút và thử lại."
+            ));
           }
 
           submitBtn.disabled = true;
           const originalText = submitBtn.innerHTML;
-          submitBtn.innerHTML = isEs ? "<span>Enviando...</span>" : "<span>Sending...</span>";
+          submitBtn.innerHTML = `<span>${t("Sending...", "Enviando...", "Đang gửi...")}</span>`;
           const restoreBtn = () => { submitBtn.disabled = false; submitBtn.innerHTML = originalText; };
 
           grecaptcha.ready(function () {
@@ -576,7 +586,7 @@ get_header(); ?>
                 message:      form.querySelector('textarea[name="message"]')?.value.trim() || "",
                 form_source:  form.dataset.formSource || "Contact Page",
                 page_url:     window.location.href,
-                consent:      policyCheck.checked ? (isEs ? "Sí" : "Yes") : "No",
+                consent:      policyCheck.checked ? t("Yes", "Sí", "Có") : "No",
                 submitted_at: new Date().toLocaleString("en-US", { timeZone: "America/Chicago", dateStyle: "medium", timeStyle: "short" }) + " (Houston time)",
                 "g-recaptcha-response": token
               };
@@ -586,9 +596,11 @@ get_header(); ?>
               emailjs.send(UR_EMAILJS_SERVICE_ID, UR_EMAILJS_TEMPLATE_ID, formData)
                 .then(() => {
                   form.reset();
-                  showSuccess(isEs
-                    ? "Gracias. Tu solicitud ha sido enviada exitosamente. Nos pondremos en contacto pronto."
-                    : "Thank you. Your request has been sent successfully. We'll be in touch soon.");
+                  showSuccess(t(
+                    "Thank you. Your request has been sent successfully. We'll be in touch soon.",
+                    "Gracias. Tu solicitud ha sido enviada exitosamente. Nos pondremos en contacto pronto.",
+                    "Cảm ơn bạn. Yêu cầu của bạn đã được gửi thành công. Chúng tôi sẽ sớm liên hệ với bạn."
+                  ));
 
                   // 2) Auto-reply de confirmación al cliente. Va en su propio
                   //    catch a propósito: si este falla, el lead YA llegó a la
@@ -601,15 +613,19 @@ get_header(); ?>
                     zip:     formData.zip
                   }).catch((autoErr) => console.warn("Auto-reply no enviado:", autoErr));
                 })
-                .catch(() => showError(isEs
-                  ? "Algo salió mal al enviar tu solicitud. Por favor intenta de nuevo o llámanos al (832) 739-2842."
-                  : "Something went wrong while sending your request. Please try again or call us at (832) 739-2842."))
+                .catch(() => showError(t(
+                  "Something went wrong while sending your request. Please try again or call us at (832) 739-2842.",
+                  "Algo salió mal al enviar tu solicitud. Por favor intenta de nuevo o llámanos al (832) 739-2842.",
+                  "Đã xảy ra lỗi khi gửi yêu cầu của bạn. Vui lòng thử lại hoặc gọi cho chúng tôi theo số (832) 739-2842."
+                )))
                 .finally(restoreBtn);
 
             }).catch(function () {
-              showError(isEs
-                ? "La verificación reCAPTCHA falló. Por favor recarga la página e intenta de nuevo."
-                : "reCAPTCHA verification failed. Please refresh the page and try again.");
+              showError(t(
+                "reCAPTCHA verification failed. Please refresh the page and try again.",
+                "La verificación reCAPTCHA falló. Por favor recarga la página e intenta de nuevo.",
+                "Xác minh reCAPTCHA không thành công. Vui lòng làm mới trang và thử lại."
+              ));
               restoreBtn();
             });
           });

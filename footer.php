@@ -27,26 +27,26 @@
   };
 
   $ur_services_menu = [
-    ['label' => 'Residential Roof Replacement', 'label_es' => 'Reemplazo de Techo Residencial',            'link' => '/services/residential-roof-replacement'],
-    ['label' => 'Storm & Hail Damage Repair',    'label_es' => 'Reparación de Daños por Tormenta y Granizo', 'link' => '/services/storm-hail-damage-repair'],
-    ['label' => 'Roof Maintenance & Inspections','label_es' => 'Mantenimiento e Inspecciones de Techo',      'link' => '/services/roof-maintenance-inspections'],
+    ['label' => 'Residential Roof Replacement', 'label_es' => 'Reemplazo de Techo Residencial',            'label_vi' => 'Thay Mái Nhà Ở',                        'link' => '/services/residential-roof-replacement'],
+    ['label' => 'Storm & Hail Damage Repair',    'label_es' => 'Reparación de Daños por Tormenta y Granizo', 'label_vi' => 'Sửa Chữa Hư Hỏng Do Bão & Mưa Đá',       'link' => '/services/storm-hail-damage-repair'],
+    ['label' => 'Roof Maintenance & Inspections','label_es' => 'Mantenimiento e Inspecciones de Techo',      'label_vi' => 'Bảo Trì & Kiểm Tra Mái Nhà',             'link' => '/services/roof-maintenance-inspections'],
     // Temporalmente oculto a pedido del cliente — no borrar, solo descomentar para reactivar.
-    // ['label' => 'Commercial & Flat Roofing',      'label_es' => 'Techado Comercial y Plano',                 'link' => '/services/commercial-flat-roofing'],
-    ['label' => 'HOA Roofing Programs',           'label_es' => 'Programas de Techado para HOA',             'link' => '/services/hoa-roofing-programs'],
+    // ['label' => 'Commercial & Flat Roofing',      'label_es' => 'Techado Comercial y Plano',                 'label_vi' => 'Mái Nhà Thương Mại & Mái Bằng',          'link' => '/services/commercial-flat-roofing'],
+    ['label' => 'HOA Roofing Programs',           'label_es' => 'Programas de Techado para HOA',             'label_vi' => 'Chương Trình Mái Nhà cho HOA',           'link' => '/services/hoa-roofing-programs'],
   ];
 
   $ur_quick_links = [
-    ['label' => 'Home',          'label_es' => 'Inicio',           'link' => '/'],
-    ['label' => 'About',         'label_es' => 'Nosotros',         'link' => '/about'],
-    ['label' => 'Services',      'label_es' => 'Servicios',        'link' => '/services'],
-    ['label' => 'Service Areas', 'label_es' => 'Áreas de Servicio', 'link' => '/service-areas'],
-    ['label' => 'Contact',       'label_es' => 'Contacto',         'link' => '/contact'],
+    ['label' => 'Home',          'label_es' => 'Inicio',           'label_vi' => 'Trang Chủ',        'link' => '/'],
+    ['label' => 'About',         'label_es' => 'Nosotros',         'label_vi' => 'Giới Thiệu',       'link' => '/about'],
+    ['label' => 'Services',      'label_es' => 'Servicios',        'label_vi' => 'Dịch Vụ',          'link' => '/services'],
+    ['label' => 'Service Areas', 'label_es' => 'Áreas de Servicio', 'label_vi' => 'Khu Vực Phục Vụ', 'link' => '/service-areas'],
+    ['label' => 'Contact',       'label_es' => 'Contacto',         'label_vi' => 'Liên Hệ',          'link' => '/contact'],
   ];
 
   $ur_licenses = [
-    ['en' => 'General Cleaning License', 'es' => 'Licencia General de Limpieza'],
-    ['en' => 'Liability Insurance',      'es' => 'Seguro de Responsabilidad Civil'],
-    ['en' => "Workers' Compensation",    'es' => 'Compensación para Trabajadores'],
+    ['en' => 'General Cleaning License', 'es' => 'Licencia General de Limpieza',        'vi' => 'Giấy Phép Vệ Sinh Tổng Quát'],
+    ['en' => 'Liability Insurance',      'es' => 'Seguro de Responsabilidad Civil',      'vi' => 'Bảo Hiểm Trách Nhiệm'],
+    ['en' => "Workers' Compensation",    'es' => 'Compensación para Trabajadores',       'vi' => 'Bảo Hiểm Bồi Thường cho Người Lao Động'],
   ];
 ?>
 
@@ -59,8 +59,8 @@
 
       <!-- Columna 1: Logo + tagline + redes -->
       <div class="ur-footer__col">
-        <img src="<?php echo esc_url($logo_navy); ?>" alt="Urena Roofing Contractor LLC" data-en-alt="Urena Roofing Contractor LLC" data-es-alt="Ureña Roofing Contractor LLC" class="ur-footer__logo">
-        <p class="ur-footer__tagline"><span data-en="Built Right. Built to Last." data-es="Construido Bien. Hecho para Durar.">Built Right. Built to Last.</span></p>
+        <img src="<?php echo esc_url($logo_navy); ?>" alt="Urena Roofing Contractor LLC" data-en-alt="Urena Roofing Contractor LLC" data-es-alt="Ureña Roofing Contractor LLC" data-vi-alt="Urena Roofing Contractor LLC" class="ur-footer__logo">
+        <p class="ur-footer__tagline"><span data-en="Built Right. Built to Last." data-es="Construido Bien. Hecho para Durar." data-vi="Xây Đúng Cách. Bền Vững Lâu Dài.">Built Right. Built to Last.</span></p>
         <div class="ur-footer__social">
           <a href="https://www.facebook.com/UrenaRoofingHouston" target="_blank" rel="noopener noreferrer" class="ur-footer__social-chip" aria-label="Facebook"><?php echo $ur_brand_icon('facebook'); ?></a>
           <a href="<?php echo esc_url('https://www.instagram.com/urena.roofing/?hl=es'); ?>" target="_blank" rel="noopener noreferrer" class="ur-footer__social-chip" aria-label="Instagram"><?php echo $ur_brand_icon('instagram'); ?></a>
@@ -72,27 +72,27 @@
 
       <!-- Columna 2: Quick Links -->
       <div class="ur-footer__col">
-        <p class="ur-footer__heading"><span data-en="Quick Links" data-es="Enlaces Rápidos">Quick Links</span></p>
+        <p class="ur-footer__heading"><span data-en="Quick Links" data-es="Enlaces Rápidos" data-vi="Liên Kết Nhanh">Quick Links</span></p>
         <ul class="ur-footer__list">
           <?php foreach ($ur_quick_links as $l) : ?>
-            <li><a href="<?php echo esc_url(home_url($l['link'])); ?>"><span data-en="<?php echo esc_attr($l['label']); ?>" data-es="<?php echo esc_attr($l['label_es']); ?>"><?php echo esc_html($l['label']); ?></span></a></li>
+            <li><a href="<?php echo esc_url(home_url($l['link'])); ?>"><span data-en="<?php echo esc_attr($l['label']); ?>" data-es="<?php echo esc_attr($l['label_es']); ?>" data-vi="<?php echo esc_attr($l['label_vi']); ?>"><?php echo esc_html($l['label']); ?></span></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
 
       <!-- Columna 3: Services -->
       <div class="ur-footer__col">
-        <p class="ur-footer__heading"><span data-en="Services" data-es="Servicios">Services</span></p>
+        <p class="ur-footer__heading"><span data-en="Services" data-es="Servicios" data-vi="Dịch Vụ">Services</span></p>
         <ul class="ur-footer__list">
           <?php foreach ($ur_services_menu as $s) : ?>
-            <li><a href="<?php echo esc_url(home_url($s['link'])); ?>"><span data-en="<?php echo esc_attr($s['label']); ?>" data-es="<?php echo esc_attr($s['label_es']); ?>"><?php echo esc_html($s['label']); ?></span></a></li>
+            <li><a href="<?php echo esc_url(home_url($s['link'])); ?>"><span data-en="<?php echo esc_attr($s['label']); ?>" data-es="<?php echo esc_attr($s['label_es']); ?>" data-vi="<?php echo esc_attr($s['label_vi']); ?>"><?php echo esc_html($s['label']); ?></span></a></li>
           <?php endforeach; ?>
         </ul>
       </div>
 
       <!-- Columna 4: Contact info -->
       <div class="ur-footer__col">
-        <p class="ur-footer__heading"><span data-en="Contact" data-es="Contacto">Contact</span></p>
+        <p class="ur-footer__heading"><span data-en="Contact" data-es="Contacto" data-vi="Liên Hệ">Contact</span></p>
         <ul class="ur-footer__contact">
           <li>
             <?php echo $ur_icon('phone'); ?>
@@ -109,7 +109,7 @@
         </ul>
         <ul class="ur-footer__licenses">
           <?php foreach ($ur_licenses as $lic) : ?>
-            <li><span data-en="<?php echo esc_attr($lic['en']); ?>" data-es="<?php echo esc_attr($lic['es']); ?>"><?php echo esc_html($lic['en']); ?></span></li>
+            <li><span data-en="<?php echo esc_attr($lic['en']); ?>" data-es="<?php echo esc_attr($lic['es']); ?>" data-vi="<?php echo esc_attr($lic['vi']); ?>"><?php echo esc_html($lic['en']); ?></span></li>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -119,11 +119,11 @@
 
   <div class="ur-footer__bottom">
     <div class="ur-footer__bottom-inner">
-      <p>&copy; <span class="js-ur-footer-year">2026</span> <span data-en="Urena Roofing Contractor LLC." data-es="Ureña Roofing Contractor LLC.">Urena Roofing Contractor LLC.</span> <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+      <p>&copy; <span class="js-ur-footer-year">2026</span> <span data-en="Urena Roofing Contractor LLC." data-es="Ureña Roofing Contractor LLC." data-vi="Urena Roofing Contractor LLC.">Urena Roofing Contractor LLC.</span> <span data-en="All rights reserved." data-es="Todos los derechos reservados." data-vi="Bảo lưu mọi quyền.">All rights reserved.</span></p>
       <div class="ur-footer__bottom-links">
-        <a href="<?php echo esc_url(home_url('/privacy-policy')); ?>"><span data-en="Privacy Policy" data-es="Política de Privacidad">Privacy Policy</span></a>
+        <a href="<?php echo esc_url(home_url('/privacy-policy')); ?>"><span data-en="Privacy Policy" data-es="Política de Privacidad" data-vi="Chính Sách Bảo Mật">Privacy Policy</span></a>
         <span>|</span>
-        <a href="<?php echo esc_url(home_url('/terms-of-service')); ?>"><span data-en="Terms of Service" data-es="Términos de Servicio">Terms of Service</span></a>
+        <a href="<?php echo esc_url(home_url('/terms-of-service')); ?>"><span data-en="Terms of Service" data-es="Términos de Servicio" data-vi="Điều Khoản Dịch Vụ">Terms of Service</span></a>
       </div>
     </div>
   </div>

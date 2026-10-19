@@ -20,7 +20,7 @@ get_header(); ?>
       'hero_bg'    => $img . '369.jpg',
       'team_photo' => $img . 'Copia-de-FOTOS-CON-EL-PRESIDENCIAL-1-scaled.png',
       'story_img'  => $img . 'Copia-de-DJI_20260610190735_0025_D-scaled.jpg',
-      'cta_bg'     => $img . 'workers-on-blue.jpg',
+      'cta_bg'     => $img . 'DJI_0379-scaled-e1786661321527.jpg',
     ];
 
     // ------------------------------------------------------------
@@ -46,23 +46,23 @@ get_header(); ?>
     // DATA
     // ------------------------------------------------------------
     $licenses = [
-      ['icon' => 'file-check', 'title' => 'General Cleaning License', 'title_es' => 'Licencia General de Limpieza', 'copy' => 'Registered and current, covering every job we take on.', 'copy_es' => 'Registrada y vigente, cubriendo cada trabajo que realizamos.', 'tilt' => '-3deg', 'ref' => 'GC-01'],
-      ['icon' => 'shield',     'title' => 'Liability Insurance',      'title_es' => 'Seguro de Responsabilidad Civil', 'copy' => 'Full coverage protecting your property from start to finish.', 'copy_es' => 'Cobertura completa que protege tu propiedad de principio a fin.', 'tilt' => '2deg', 'ref' => 'LI-02'],
-      ['icon' => 'hardhat',    'title' => "Workers' Compensation",    'title_es' => 'Compensación para Trabajadores', 'copy' => 'Every crew member on your roof is covered on the job.', 'copy_es' => 'Cada miembro de nuestro equipo en tu techo está cubierto en el trabajo.', 'tilt' => '-1.5deg', 'ref' => 'WC-03'],
+      ['icon' => 'file-check', 'title' => 'General Cleaning License', 'title_es' => 'Licencia General de Limpieza', 'title_vi' => 'Giấy Phép Vệ Sinh Tổng Quát', 'copy' => 'Registered and current, covering every job we take on.', 'copy_es' => 'Registrada y vigente, cubriendo cada trabajo que realizamos.', 'copy_vi' => 'Đã đăng ký và còn hiệu lực, áp dụng cho mọi công việc chúng tôi thực hiện.', 'tilt' => '-3deg', 'ref' => 'GC-01'],
+      ['icon' => 'shield',     'title' => 'Liability Insurance',      'title_es' => 'Seguro de Responsabilidad Civil', 'title_vi' => 'Bảo Hiểm Trách Nhiệm', 'copy' => 'Full coverage protecting your property from start to finish.', 'copy_es' => 'Cobertura completa que protege tu propiedad de principio a fin.', 'copy_vi' => 'Bảo hiểm toàn diện bảo vệ tài sản của bạn từ đầu đến cuối.', 'tilt' => '2deg', 'ref' => 'LI-02'],
+      ['icon' => 'hardhat',    'title' => "Workers' Compensation",    'title_es' => 'Compensación para Trabajadores', 'title_vi' => 'Bảo Hiểm Bồi Thường cho Người Lao Động', 'copy' => 'Every crew member on your roof is covered on the job.', 'copy_es' => 'Cada miembro de nuestro equipo en tu techo está cubierto en el trabajo.', 'copy_vi' => 'Mọi thành viên đội thi công trên mái nhà của bạn đều được bảo hiểm trong công việc.', 'tilt' => '-1.5deg', 'ref' => 'WC-03'],
     ];
 
     $hb2102_faqs = [
-      ['q' => 'What is HB2102?', 'q_es' => '¿Qué es HB2102?', 'a' => 'A Texas law that makes it illegal for a roofing contractor to offer to waive, pay, or rebate a homeowner\'s insurance deductible, a practice sometimes used to win jobs quickly, at the homeowner\'s legal risk.', 'a_es' => 'Una ley de Texas que hace ilegal que un contratista de techos ofrezca eximir, pagar o reembolsar el deducible del seguro de un propietario, una práctica a veces usada para ganar trabajos rápidamente, a costa del riesgo legal del propietario.'],
-      ['q' => 'Why does this matter to me?', 'q_es' => '¿Por qué esto me importa?', 'a' => 'If a contractor offers to "cover your deductible," they may be breaking the law, and you could be held responsible for insurance fraud alongside them. Working with an HB2102-compliant contractor protects you.', 'a_es' => 'Si un contratista te ofrece "cubrir tu deducible", puede estar violando la ley, y tú podrías ser responsable de fraude de seguro junto con él. Trabajar con un contratista que cumple con HB2102 te protege.'],
-      ['q' => 'What is an insurance deductible, exactly?', 'q_es' => '¿Qué es exactamente un deducible de seguro?', 'a' => 'It\'s the amount you\'re required to pay out of pocket on a covered insurance claim before your policy pays the rest. Texas law requires homeowners to pay this themselves on roofing claims.', 'a_es' => 'Es la cantidad que debes pagar de tu bolsillo en un reclamo de seguro cubierto antes de que tu póliza pague el resto. La ley de Texas exige que los propietarios paguen esto ellos mismos en reclamos de techado.'],
-      ['q' => 'How do I know if a contractor is HB2102-compliant?', 'q_es' => '¿Cómo sé si un contratista cumple con HB2102?', 'a' => 'A compliant contractor will never offer to waive, absorb, or rebate your deductible. Ask directly, and get every detail of your project and pricing in writing before signing a contract.', 'a_es' => 'Un contratista que cumple con la ley nunca te ofrecerá eximir, absorber o reembolsar tu deducible. Pregunta directamente, y obtén cada detalle de tu proyecto y precio por escrito antes de firmar un contrato.'],
-      ['q' => 'What should I do if a contractor offers to cover my deductible?', 'q_es' => '¿Qué debo hacer si un contratista se ofrece a cubrir mi deducible?', 'a' => 'Treat it as a red flag. Choose a licensed, insured contractor that operates in full compliance with Texas law instead.', 'a_es' => 'Tómalo como una señal de alerta. En su lugar, elige un contratista con licencia y seguro que opere en total cumplimiento con la ley de Texas.'],
+      ['q' => 'What is HB2102?', 'q_es' => '¿Qué es HB2102?', 'q_vi' => 'HB2102 là gì?', 'a' => 'A Texas law that makes it illegal for a roofing contractor to offer to waive, pay, or rebate a homeowner\'s insurance deductible, a practice sometimes used to win jobs quickly, at the homeowner\'s legal risk.', 'a_es' => 'Una ley de Texas que hace ilegal que un contratista de techos ofrezca eximir, pagar o reembolsar el deducible del seguro de un propietario, una práctica a veces usada para ganar trabajos rápidamente, a costa del riesgo legal del propietario.', 'a_vi' => 'Đây là luật của Texas quy định việc nhà thầu lợp mái đề nghị miễn, thanh toán hoặc hoàn lại khoản khấu trừ bảo hiểm của chủ nhà là bất hợp pháp — một cách làm đôi khi được dùng để giành hợp đồng nhanh chóng, nhưng lại đặt chủ nhà vào rủi ro pháp lý.'],
+      ['q' => 'Why does this matter to me?', 'q_es' => '¿Por qué esto me importa?', 'q_vi' => 'Tại sao điều này lại quan trọng với tôi?', 'a' => 'If a contractor offers to "cover your deductible," they may be breaking the law, and you could be held responsible for insurance fraud alongside them. Working with an HB2102-compliant contractor protects you.', 'a_es' => 'Si un contratista te ofrece "cubrir tu deducible", puede estar violando la ley, y tú podrías ser responsable de fraude de seguro junto con él. Trabajar con un contratista que cumple con HB2102 te protege.', 'a_vi' => 'Nếu một nhà thầu đề nghị "chi trả khoản khấu trừ" cho bạn, họ có thể đang vi phạm pháp luật, và bạn cũng có thể bị liên đới chịu trách nhiệm về gian lận bảo hiểm. Làm việc với một nhà thầu tuân thủ HB2102 sẽ bảo vệ bạn.'],
+      ['q' => 'What is an insurance deductible, exactly?', 'q_es' => '¿Qué es exactamente un deducible de seguro?', 'q_vi' => 'Khoản khấu trừ bảo hiểm chính xác là gì?', 'a' => 'It\'s the amount you\'re required to pay out of pocket on a covered insurance claim before your policy pays the rest. Texas law requires homeowners to pay this themselves on roofing claims.', 'a_es' => 'Es la cantidad que debes pagar de tu bolsillo en un reclamo de seguro cubierto antes de que tu póliza pague el resto. La ley de Texas exige que los propietarios paguen esto ellos mismos en reclamos de techado.', 'a_vi' => 'Đó là số tiền bạn phải tự thanh toán trong một yêu cầu bồi thường bảo hiểm được chấp nhận, trước khi công ty bảo hiểm chi trả phần còn lại. Luật Texas yêu cầu chủ nhà phải tự trả khoản này đối với các yêu cầu bồi thường về mái nhà.'],
+      ['q' => 'How do I know if a contractor is HB2102-compliant?', 'q_es' => '¿Cómo sé si un contratista cumple con HB2102?', 'q_vi' => 'Làm sao tôi biết một nhà thầu có tuân thủ HB2102 hay không?', 'a' => 'A compliant contractor will never offer to waive, absorb, or rebate your deductible. Ask directly, and get every detail of your project and pricing in writing before signing a contract.', 'a_es' => 'Un contratista que cumple con la ley nunca te ofrecerá eximir, absorber o reembolsar tu deducible. Pregunta directamente, y obtén cada detalle de tu proyecto y precio por escrito antes de firmar un contrato.', 'a_vi' => 'Một nhà thầu tuân thủ pháp luật sẽ không bao giờ đề nghị miễn, gánh chịu hoặc hoàn lại khoản khấu trừ của bạn. Hãy hỏi trực tiếp, và yêu cầu mọi chi tiết về dự án cũng như giá cả bằng văn bản trước khi ký hợp đồng.'],
+      ['q' => 'What should I do if a contractor offers to cover my deductible?', 'q_es' => '¿Qué debo hacer si un contratista se ofrece a cubrir mi deducible?', 'q_vi' => 'Tôi nên làm gì nếu một nhà thầu đề nghị chi trả khoản khấu trừ của tôi?', 'a' => 'Treat it as a red flag. Choose a licensed, insured contractor that operates in full compliance with Texas law instead.', 'a_es' => 'Tómalo como una señal de alerta. En su lugar, elige un contratista con licencia y seguro que opere en total cumplimiento con la ley de Texas.', 'a_vi' => 'Hãy xem đó là một dấu hiệu cảnh báo. Thay vào đó, hãy chọn một nhà thầu có giấy phép, có bảo hiểm và hoạt động tuân thủ đầy đủ luật pháp Texas.'],
     ];
 
     $hero_credentials = [
-      ['icon' => 'shield',     'label' => 'Licensed & Insured', 'label_es' => 'Con Licencia y Asegurados'],
-      ['icon' => 'file-check', 'label' => 'HB2102 Compliant', 'label_es' => 'Cumple con HB2102'],
-      ['icon' => 'pin',        'label' => 'Locally Owned — Houston, TX', 'label_es' => 'Empresa Local — Houston, TX'],
+      ['icon' => 'shield',     'label' => 'Licensed & Insured', 'label_es' => 'Con Licencia y Asegurados', 'label_vi' => 'Có Giấy Phép & Bảo Hiểm'],
+      ['icon' => 'file-check', 'label' => 'HB2102 Compliant', 'label_es' => 'Cumple con HB2102', 'label_vi' => 'Tuân Thủ HB2102'],
+      ['icon' => 'pin',        'label' => 'Locally Owned — Houston, TX', 'label_es' => 'Empresa Local — Houston, TX', 'label_vi' => 'Doanh Nghiệp Địa Phương — Houston, TX'],
     ];
   ?>
 
@@ -70,7 +70,7 @@ get_header(); ?>
   <!-- HERO / INTRO — texto anclado abajo, caras despejadas arriba   -->
   <!-- ============================================================ -->
   <section class="ur-about-hero relative flex min-h-[600px] w-full items-end overflow-hidden lg:min-h-[680px]">
-    <img src="<?php echo esc_url($assets['hero_bg']); ?>" alt="The Urena Roofing Contractor team with GAF partners" data-en-alt="The Urena Roofing Contractor team with GAF partners" data-es-alt="The Ureña Roofing Contractor team with GAF partners" class="ur-parallax ur-parallax-bg absolute inset-0 w-full object-cover object-[50%_80%]" data-speed="0.05">
+    <img src="<?php echo esc_url($assets['hero_bg']); ?>" alt="The Urena Roofing Contractor team with GAF partners" data-en-alt="The Urena Roofing Contractor team with GAF partners" data-es-alt="The Ureña Roofing Contractor team with GAF partners" data-vi-alt="Đội ngũ Urena Roofing Contractor cùng đối tác GAF" class="ur-parallax ur-parallax-bg absolute inset-0 w-full object-cover object-[50%_80%]" data-speed="0.05">
     <div class="ur-about-hero__scrim absolute inset-0"></div>
     <div class="ur-about-hero__vignette absolute inset-0" aria-hidden="true"></div>
 
@@ -80,27 +80,27 @@ get_header(); ?>
     <span class="ur-hud-corner ur-hud-corner--br ur-hud-corner--xl" aria-hidden="true"></span>
 
     <span class="ur-readout ur-about-hero__badge ur-fade-in-0">
-      <span class="ur-readout__dot"></span><span data-en="Urena Roofing team" data-es="Equipo de Ureña Roofing">Urena Roofing team</span>
+      <span class="ur-readout__dot"></span><span data-en="Urena Roofing team" data-es="Equipo de Ureña Roofing" data-vi="Đội ngũ Urena Roofing">Urena Roofing team</span>
     </span>
 
     <div class="relative z-10 mx-auto w-full max-w-6xl px-4 pb-14 lg:pb-20">
       <div class="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
         <div class="text-center lg:text-left">
-          <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0" data-en="About Urena Roofing" data-es="Sobre Ureña Roofing">About Urena Roofing</p>
-          <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] text-white md:text-6xl" data-en="Built on Trust. Backed by Experience." data-es="Construido en Confianza. Respaldado por Experiencia.">
+          <p class="ur-eyebrow ur-eyebrow--light ur-fade-in-0" data-en="About Urena Roofing" data-es="Sobre Ureña Roofing" data-vi="Về Urena Roofing">About Urena Roofing</p>
+          <h1 class="mt-5 text-4xl font-black uppercase leading-[0.98] tracking-[-0.01em] text-white md:text-6xl" data-en="Built on Trust. Backed by Experience." data-es="Construido en Confianza. Respaldado por Experiencia." data-vi="Xây Dựng Trên Niềm Tin. Vững Vàng Nhờ Kinh Nghiệm.">
             <?php
               $hero_words = explode(' ', 'Built on Trust. Backed by Experience.');
               foreach ($hero_words as $i => $word) : ?>
                 <span class="ur-word"><span class="ur-word__inner" style="--i:<?php echo (int) $i; ?>"><?php echo esc_html($word); ?></span></span><?php echo ' '; ?>
               <?php endforeach; ?>
           </h1>
-          <p class="ur-fade-in-2 mx-auto mt-6 max-w-xl text-base leading-7 text-white/85 md:text-lg lg:mx-0" data-en="Urena Roofing Contractor LLC is a licensed, insured roofing company proudly serving Houston homeowners, businesses, and communities." data-es="Ureña Roofing Contractor LLC es una empresa de techado con licencia y seguro que atiende con orgullo a propietarios, negocios y comunidades de Houston.">
+          <p class="ur-fade-in-2 mx-auto mt-6 max-w-xl text-base leading-7 text-white/85 md:text-lg lg:mx-0" data-en="Urena Roofing Contractor LLC is a licensed, insured roofing company proudly serving Houston homeowners, businesses, and communities." data-es="Ureña Roofing Contractor LLC es una empresa de techado con licencia y seguro que atiende con orgullo a propietarios, negocios y comunidades de Houston." data-vi="Urena Roofing Contractor LLC là công ty lợp mái có giấy phép và bảo hiểm, tự hào phục vụ các chủ nhà, doanh nghiệp và cộng đồng tại Houston.">
             Urena Roofing Contractor LLC is a licensed, insured roofing company proudly serving Houston
             homeowners, businesses, and communities.
           </p>
           <div class="ur-fade-in-2 mt-8 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
             <a href="/contact" class="ur-btn ur-btn-gold ur-magnetic inline-flex items-center justify-center gap-2 px-7 py-3.5 text-sm font-black uppercase tracking-[0.12em]">
-              <span data-en="Get in Touch" data-es="Ponte en Contacto">Get in Touch</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
+              <span data-en="Get in Touch" data-es="Ponte en Contacto" data-vi="Liên Hệ Ngay">Get in Touch</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
             </a>
             <a href="tel:+18327392842" class="ur-btn ur-btn-outline ur-magnetic inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-black uppercase tracking-[0.12em] text-white">
               <?php echo $icon('phone', 'h-4 w-4'); ?><span>(832) 739-2842</span>
@@ -109,12 +109,12 @@ get_header(); ?>
         </div>
 
         <div class="ur-fade-in-3 ur-hero-panel">
-          <span class="ur-hero-panel__label" data-en="On File &amp; Verified" data-es="En Archivo y Verificado">On File &amp; Verified</span>
+          <span class="ur-hero-panel__label" data-en="On File &amp; Verified" data-es="En Archivo y Verificado" data-vi="Đã Lưu Hồ Sơ &amp; Xác Minh">On File &amp; Verified</span>
           <ul class="ur-hero-panel__list">
             <?php foreach ($hero_credentials as $c) : ?>
               <li>
                 <span class="ur-hero-panel__icon"><?php echo $icon($c['icon'], 'h-4 w-4'); ?></span>
-                <span data-en="<?php echo esc_attr($c['label']); ?>" data-es="<?php echo esc_attr($c['label_es']); ?>"><?php echo esc_html($c['label']); ?></span>
+                <span data-en="<?php echo esc_attr($c['label']); ?>" data-es="<?php echo esc_attr($c['label_es']); ?>" data-vi="<?php echo esc_attr($c['label_vi']); ?>"><?php echo esc_html($c['label']); ?></span>
               </li>
             <?php endforeach; ?>
           </ul>
@@ -123,7 +123,7 @@ get_header(); ?>
     </div>
 
     <a href="#our-story" class="ur-about-hero__scrollcue" aria-label="Scroll to our story">
-      <span data-en="SCROLL" data-es="DESLIZAR">SCROLL</span>
+      <span data-en="SCROLL" data-es="DESLIZAR" data-vi="CUỘN XUỐNG">SCROLL</span>
       <span class="ur-about-hero__scrollcue-line" aria-hidden="true"></span>
     </a>
   </section>
@@ -136,19 +136,19 @@ get_header(); ?>
 
     <div class="relative mx-auto grid max-w-7xl gap-16 px-4 lg:grid-cols-[1fr_1.05fr] lg:items-center">
       <div class="ur-reveal-right order-2 lg:order-1">
-        <p class="ur-eyebrow" data-en="Our Story" data-es="Nuestra Historia">Our Story</p>
-        <h2 class="mt-4 max-w-lg text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="One Roof at a Time" data-es="Un Techo a la Vez">
+        <p class="ur-eyebrow" data-en="Our Story" data-es="Nuestra Historia" data-vi="Câu Chuyện Của Chúng Tôi">Our Story</p>
+        <h2 class="mt-4 max-w-lg text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="One Roof at a Time" data-es="Un Techo a la Vez" data-vi="Từng Mái Nhà Một">
           One Roof at a Time
         </h2>
-        <p class="ur-story-lead mt-6 max-w-xl text-[19px] leading-8 text-[#12103A]" data-en="Founded to bring honest, professional roofing services to the Houston community, Urena Roofing Contractor has grown by putting transparency and quality first." data-es="Fundada para llevar servicios de techado honestos y profesionales a la comunidad de Houston, Ureña Roofing Contractor ha crecido poniendo la transparencia y la calidad primero.">
+        <p class="ur-story-lead mt-6 max-w-xl text-[19px] leading-8 text-[#12103A]" data-en="Founded to bring honest, professional roofing services to the Houston community, Urena Roofing Contractor has grown by putting transparency and quality first." data-es="Fundada para llevar servicios de techado honestos y profesionales a la comunidad de Houston, Ureña Roofing Contractor ha crecido poniendo la transparencia y la calidad primero." data-vi="Được thành lập để mang dịch vụ lợp mái trung thực, chuyên nghiệp đến cộng đồng Houston, Urena Roofing Contractor đã phát triển nhờ đặt sự minh bạch và chất lượng lên hàng đầu.">
           Founded to bring honest, professional roofing services to the Houston community, Urena
           Roofing Contractor has grown by putting transparency and quality first.
         </p>
-        <p class="mt-4 max-w-xl text-base leading-7 text-[#5B5F6B]" data-en="Every project carries the same standard, whether it's a single storm repair or a full community maintenance program." data-es="Cada proyecto lleva el mismo estándar, ya sea una sola reparación por tormenta o un programa completo de mantenimiento comunitario.">
+        <p class="mt-4 max-w-xl text-base leading-7 text-[#5B5F6B]" data-en="Every project carries the same standard, whether it's a single storm repair or a full community maintenance program." data-es="Cada proyecto lleva el mismo estándar, ya sea una sola reparación por tormenta o un programa completo de mantenimiento comunitario." data-vi="Mỗi dự án đều được thực hiện theo cùng một tiêu chuẩn, dù là một lần sửa chữa sau bão hay một chương trình bảo trì toàn cộng đồng.">
           Every project carries the same standard, whether it's a single storm repair or a full
           community maintenance program.
         </p>
-        <p class="ur-mono-tag mt-6 inline-block"><span data-en="CONTENT PENDING &middot; AWAITING FOUNDING YEAR, FOUNDER &amp; MISSION FROM CLIENT" data-es="CONTENIDO PENDIENTE &middot; A LA ESPERA DEL AÑO DE FUNDACIÓN, FUNDADOR Y MISIÓN DEL CLIENTE">CONTENT PENDING &middot; AWAITING FOUNDING YEAR, FOUNDER &amp; MISSION FROM CLIENT</span></p>
+        <p class="ur-mono-tag mt-6 inline-block"><span data-en="CONTENT PENDING &middot; AWAITING FOUNDING YEAR, FOUNDER &amp; MISSION FROM CLIENT" data-es="CONTENIDO PENDIENTE &middot; A LA ESPERA DEL AÑO DE FUNDACIÓN, FUNDADOR Y MISIÓN DEL CLIENTE" data-vi="NỘI DUNG ĐANG CHỜ &middot; CHỜ NĂM THÀNH LẬP, NGƯỜI SÁNG LẬP &amp; SỨ MỆNH TỪ KHÁCH HÀNG">CONTENT PENDING &middot; AWAITING FOUNDING YEAR, FOUNDER &amp; MISSION FROM CLIENT</span></p>
       </div>
 
       <div class="order-1 lg:order-2">
@@ -156,10 +156,10 @@ get_header(); ?>
           <div class="ur-reveal-left ur-story-collage__main ur-tilt">
             <span class="ur-hud-corner ur-hud-corner--tl" aria-hidden="true"></span>
             <span class="ur-hud-corner ur-hud-corner--br" aria-hidden="true"></span>
-            <img src="<?php echo esc_url($assets['story_img']); ?>" alt="A completed Urena Roofing project, Houston, TX" data-en-alt="A completed Urena Roofing project, Houston, TX" data-es-alt="A completed Ureña Roofing project, Houston, TX" class="h-full w-full object-cover" loading="lazy">
+            <img src="<?php echo esc_url($assets['story_img']); ?>" alt="A completed Urena Roofing project, Houston, TX" data-en-alt="A completed Urena Roofing project, Houston, TX" data-es-alt="A completed Ureña Roofing project, Houston, TX" data-vi-alt="Một dự án hoàn thành của Urena Roofing, Houston, TX" class="h-full w-full object-cover" loading="lazy">
           </div>
           <button type="button" class="js-ur-lightbox-trigger ur-story-collage__accent ur-tilt" aria-label="View team photo larger">
-            <img src="<?php echo esc_url($assets['team_photo']); ?>" alt="The Urena Roofing team" data-en-alt="The Urena Roofing team" data-es-alt="The Ureña Roofing team" class="h-full w-full object-cover" loading="lazy">
+            <img src="<?php echo esc_url($assets['team_photo']); ?>" alt="The Urena Roofing team" data-en-alt="The Urena Roofing team" data-es-alt="The Ureña Roofing team" data-vi-alt="Đội ngũ Urena Roofing" class="h-full w-full object-cover" loading="lazy">
             <span class="ur-story-collage__accent-tag">THE TEAM</span>
             <span class="ur-story-collage__seal" aria-hidden="true">
               <span class="ur-story-collage__seal-ring"></span>
@@ -179,11 +179,11 @@ get_header(); ?>
     <div class="ur-licenses__texture" aria-hidden="true"></div>
     <div class="relative mx-auto max-w-7xl px-4">
       <div class="ur-reveal-up mx-auto max-w-2xl text-center">
-        <p class="ur-eyebrow" data-en="Credentials" data-es="Credenciales">Credentials</p>
-        <h2 class="mt-4 text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="Fully Licensed &amp; Insured" data-es="Totalmente Licenciados y Asegurados">
+        <p class="ur-eyebrow" data-en="Credentials" data-es="Credenciales" data-vi="Chứng Nhận">Credentials</p>
+        <h2 class="mt-4 text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] text-[#12103A] md:text-5xl" data-en="Fully Licensed &amp; Insured" data-es="Totalmente Licenciados y Asegurados" data-vi="Có Đầy Đủ Giấy Phép &amp; Bảo Hiểm">
           Fully Licensed &amp; Insured
         </h2>
-        <p class="mt-5 text-base leading-7 text-[#5B5F6B]" data-en="We operate with a General Cleaning License, full Liability Insurance, and Workers' Compensation coverage, so every project is protected, start to finish." data-es="Operamos con Licencia General de Limpieza, Seguro de Responsabilidad Civil completo, y cobertura de Compensación para Trabajadores, así que cada proyecto está protegido de principio a fin.">
+        <p class="mt-5 text-base leading-7 text-[#5B5F6B]" data-en="We operate with a General Cleaning License, full Liability Insurance, and Workers' Compensation coverage, so every project is protected, start to finish." data-es="Operamos con Licencia General de Limpieza, Seguro de Responsabilidad Civil completo, y cobertura de Compensación para Trabajadores, así que cada proyecto está protegido de principio a fin." data-vi="Chúng tôi hoạt động với Giấy Phép Vệ Sinh Tổng Quát, Bảo Hiểm Trách Nhiệm đầy đủ, và Bảo Hiểm Bồi Thường cho Người Lao Động, để mỗi dự án đều được bảo vệ từ đầu đến cuối.">
           We operate with a General Cleaning License, full Liability Insurance, and Workers'
           Compensation coverage, so every project is protected, start to finish.
         </p>
@@ -195,11 +195,11 @@ get_header(); ?>
             <span class="ur-license-card__pulse" aria-hidden="true"></span>
             <div class="ur-license-card__head">
               <span class="ur-license-card__seal"><?php echo $icon($l['icon'], 'h-6 w-6'); ?></span>
-              <span class="ur-license-card__verified"><?php echo $icon('file-check', 'h-3 w-3'); ?><span data-en="VERIFIED" data-es="VERIFICADO">VERIFIED</span></span>
+              <span class="ur-license-card__verified"><?php echo $icon('file-check', 'h-3 w-3'); ?><span data-en="VERIFIED" data-es="VERIFICADO" data-vi="ĐÃ XÁC MINH">VERIFIED</span></span>
             </div>
             <span class="ur-license-card__divider" aria-hidden="true"></span>
-            <h3 class="text-base font-black uppercase tracking-[0.01em] text-[#12103A]"><span data-en="<?php echo esc_attr($l['title']); ?>" data-es="<?php echo esc_attr($l['title_es']); ?>"><?php echo esc_html($l['title']); ?></span></h3>
-            <p class="mt-2 text-[14px] leading-6 text-[#5B5F6B]"><span data-en="<?php echo esc_attr($l['copy']); ?>" data-es="<?php echo esc_attr($l['copy_es']); ?>"><?php echo esc_html($l['copy']); ?></span></p>
+            <h3 class="text-base font-black uppercase tracking-[0.01em] text-[#12103A]"><span data-en="<?php echo esc_attr($l['title']); ?>" data-es="<?php echo esc_attr($l['title_es']); ?>" data-vi="<?php echo esc_attr($l['title_vi']); ?>"><?php echo esc_html($l['title']); ?></span></h3>
+            <p class="mt-2 text-[14px] leading-6 text-[#5B5F6B]"><span data-en="<?php echo esc_attr($l['copy']); ?>" data-es="<?php echo esc_attr($l['copy_es']); ?>" data-vi="<?php echo esc_attr($l['copy_vi']); ?>"><?php echo esc_html($l['copy']); ?></span></p>
             <span class="ur-license-card__ref">DOC &middot; <?php echo esc_html($l['ref']); ?></span>
           </div>
         <?php endforeach; ?>
@@ -215,11 +215,11 @@ get_header(); ?>
 
     <div class="relative mx-auto grid max-w-7xl gap-14 px-4 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
       <div class="ur-reveal-left">
-        <p class="ur-eyebrow ur-eyebrow--light" data-en="Know Your Rights" data-es="Conoce tus Derechos">Know Your Rights</p>
-        <h2 class="mt-4 text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] md:text-5xl" data-en="Texas Roofing Law (HB2102)" data-es="Ley de Techado de Texas (HB2102)">
+        <p class="ur-eyebrow ur-eyebrow--light" data-en="Know Your Rights" data-es="Conoce tus Derechos" data-vi="Biết Quyền Của Bạn">Know Your Rights</p>
+        <h2 class="mt-4 text-3xl font-black uppercase leading-[1.02] tracking-[-0.01em] md:text-5xl" data-en="Texas Roofing Law (HB2102)" data-es="Ley de Techado de Texas (HB2102)" data-vi="Luật Lợp Mái Texas (HB2102)">
           Texas Roofing Law (HB2102)
         </h2>
-        <p class="mt-6 max-w-xl text-base leading-8 text-white/78" data-en="Texas law requires homeowners to pay their own insurance deductible on roofing claims, and it's illegal for a contractor to offer to waive or &quot;forgive&quot; that deductible. This practice, sometimes used by unlicensed or informal roofers, can put homeowners at legal and financial risk. Urena Roofing Contractor operates in full compliance with HB2102, protecting your roof, your budget, and your legal standing." data-es="La ley de Texas exige que los propietarios paguen su propio deducible de seguro en reclamos de techado, y es ilegal que un contratista ofrezca eximir o &quot;perdonar&quot; ese deducible. Esta práctica, usada a veces por techadores sin licencia o informales, puede poner a los propietarios en riesgo legal y financiero. Ureña Roofing Contractor opera en total cumplimiento con HB2102, protegiendo tu techo, tu presupuesto y tu situación legal.">
+        <p class="mt-6 max-w-xl text-base leading-8 text-white/78" data-en="Texas law requires homeowners to pay their own insurance deductible on roofing claims, and it's illegal for a contractor to offer to waive or &quot;forgive&quot; that deductible. This practice, sometimes used by unlicensed or informal roofers, can put homeowners at legal and financial risk. Urena Roofing Contractor operates in full compliance with HB2102, protecting your roof, your budget, and your legal standing." data-es="La ley de Texas exige que los propietarios paguen su propio deducible de seguro en reclamos de techado, y es ilegal que un contratista ofrezca eximir o &quot;perdonar&quot; ese deducible. Esta práctica, usada a veces por techadores sin licencia o informales, puede poner a los propietarios en riesgo legal y financiero. Ureña Roofing Contractor opera en total cumplimiento con HB2102, protegiendo tu techo, tu presupuesto y tu situación legal." data-vi="Luật Texas quy định chủ nhà phải tự thanh toán khoản khấu trừ bảo hiểm của mình đối với các yêu cầu bồi thường về mái nhà, và việc một nhà thầu đề nghị miễn hoặc &quot;tha&quot; khoản khấu trừ đó là bất hợp pháp. Thực tế này, đôi khi được một số thợ lợp mái không có giấy phép hoặc không chính thức sử dụng, có thể khiến chủ nhà gặp rủi ro pháp lý và tài chính. Urena Roofing Contractor hoạt động tuân thủ đầy đủ HB2102, bảo vệ mái nhà, ngân sách và vị thế pháp lý của bạn.">
           Texas law requires homeowners to pay their own insurance deductible on roofing claims,
           and it's illegal for a contractor to offer to waive or "forgive" that deductible. This
           practice, sometimes used by unlicensed or informal roofers, can put homeowners at legal and
@@ -227,22 +227,22 @@ get_header(); ?>
           your roof, your budget, and your legal standing.
         </p>
 
-        <blockquote class="ur-hb2102__quote" data-en="&ldquo;The company that protects your roof, your budget, and your compliance.&rdquo;" data-es="&ldquo;La empresa que protege tu techo, tu presupuesto y tu cumplimiento legal.&rdquo;">
+        <blockquote class="ur-hb2102__quote" data-en="&ldquo;The company that protects your roof, your budget, and your compliance.&rdquo;" data-es="&ldquo;La empresa que protege tu techo, tu presupuesto y tu cumplimiento legal.&rdquo;" data-vi="&ldquo;Công ty bảo vệ mái nhà, ngân sách và sự tuân thủ pháp luật của bạn.&rdquo;">
           &ldquo;The company that protects your roof, your budget, and your compliance.&rdquo;
         </blockquote>
       </div>
 
       <div class="ur-reveal-right">
-        <p class="ur-eyebrow ur-eyebrow--light" data-en="Quick FAQ" data-es="Preguntas Rápidas">Quick FAQ</p>
+        <p class="ur-eyebrow ur-eyebrow--light" data-en="Quick FAQ" data-es="Preguntas Rápidas" data-vi="Hỏi Đáp Nhanh">Quick FAQ</p>
         <div class="js-ur-faq mt-5 space-y-3">
           <?php foreach ($hb2102_faqs as $i => $faq) : ?>
             <div class="ur-faq-item">
               <button type="button" class="js-ur-faq-trigger ur-faq-item__trigger">
                 <span class="ur-faq-item__icon"><?php echo $icon('plus', 'h-4 w-4'); ?></span>
-                <span data-en="<?php echo esc_attr($faq['q']); ?>" data-es="<?php echo esc_attr($faq['q_es']); ?>"><?php echo esc_html($faq['q']); ?></span>
+                <span data-en="<?php echo esc_attr($faq['q']); ?>" data-es="<?php echo esc_attr($faq['q_es']); ?>" data-vi="<?php echo esc_attr($faq['q_vi']); ?>"><?php echo esc_html($faq['q']); ?></span>
               </button>
               <div class="ur-faq-item__panel">
-                <p><span data-en="<?php echo esc_attr($faq['a']); ?>" data-es="<?php echo esc_attr($faq['a_es']); ?>"><?php echo esc_html($faq['a']); ?></span></p>
+                <p><span data-en="<?php echo esc_attr($faq['a']); ?>" data-es="<?php echo esc_attr($faq['a_es']); ?>" data-vi="<?php echo esc_attr($faq['a_vi']); ?>"><?php echo esc_html($faq['a']); ?></span></p>
               </div>
             </div>
           <?php endforeach; ?>
@@ -267,17 +267,17 @@ get_header(); ?>
   <!-- CTA DE CIERRE — banda de foto, cierra el círculo con el hero  -->
   <!-- ============================================================ -->
   <section class="ur-about-cta relative isolate flex min-h-[420px] items-center overflow-hidden text-center lg:min-h-[480px]">
-    <img src="<?php echo esc_url($assets['cta_bg']); ?>" alt="Urena Roofing crew at work on a Houston roof" data-en-alt="Urena Roofing crew at work on a Houston roof" data-es-alt="Ureña Roofing crew at work on a Houston roof" class="ur-parallax ur-parallax-bg absolute inset-0 w-full object-cover" data-speed="0.05">
+    <img src="<?php echo esc_url($assets['cta_bg']); ?>" alt="Urena Roofing crew at work on a Houston roof" data-en-alt="Urena Roofing crew at work on a Houston roof" data-es-alt="Ureña Roofing crew at work on a Houston roof" data-vi-alt="Đội thi công Urena Roofing đang làm việc trên một mái nhà tại Houston" class="ur-parallax ur-parallax-bg absolute inset-0 w-full object-cover" data-speed="0.05">
     <div class="ur-about-cta__scrim absolute inset-0"></div>
 
     <div class="relative z-10 mx-auto max-w-2xl px-4">
-      <p class="ur-eyebrow ur-eyebrow--light ur-reveal-up" data-en="Get Started" data-es="Comienza Ahora">Get Started</p>
-      <h2 class="ur-reveal-up mt-4 text-3xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-white md:text-5xl" data-en="Ready to Work With a Roofing Company You Can Trust?" data-es="¿Listo para Trabajar con una Empresa de Techado en la que Puedes Confiar?">
+      <p class="ur-eyebrow ur-eyebrow--light ur-reveal-up" data-en="Get Started" data-es="Comienza Ahora" data-vi="Bắt Đầu Ngay">Get Started</p>
+      <h2 class="ur-reveal-up mt-4 text-3xl font-black uppercase leading-[1.05] tracking-[-0.01em] text-white md:text-5xl" data-en="Ready to Work With a Roofing Company You Can Trust?" data-es="¿Listo para Trabajar con una Empresa de Techado en la que Puedes Confiar?" data-vi="Sẵn Sàng Hợp Tác Với Một Công Ty Lợp Mái Đáng Tin Cậy?">
         Ready to Work With a Roofing Company You Can Trust?
       </h2>
       <div class="ur-reveal-up mt-9 flex flex-wrap items-center justify-center gap-3">
         <a href="/contact" class="ur-btn ur-btn-gold ur-magnetic inline-flex items-center justify-center gap-2 px-8 py-4 text-sm font-black uppercase tracking-[0.12em]">
-          <span data-en="Get in Touch" data-es="Ponte en Contacto">Get in Touch</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
+          <span data-en="Get in Touch" data-es="Ponte en Contacto" data-vi="Liên Hệ Ngay">Get in Touch</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
         </a>
         <a href="tel:+18327392842" class="ur-btn ur-btn-outline ur-magnetic inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-white">
           <?php echo $icon('phone', 'h-4 w-4'); ?><span>(832) 739-2842</span>
@@ -294,10 +294,10 @@ get_header(); ?>
       <button type="button" class="js-ur-lightbox-close ur-lightbox__close" aria-label="Close">
         <?php echo $icon('x', 'h-5 w-5'); ?>
       </button>
-      <img src="<?php echo esc_url($assets['team_photo']); ?>" alt="The Urena Roofing team" data-en-alt="The Urena Roofing team" data-es-alt="The Ureña Roofing team" class="ur-lightbox__img">
+      <img src="<?php echo esc_url($assets['team_photo']); ?>" alt="The Urena Roofing team" data-en-alt="The Urena Roofing team" data-es-alt="The Ureña Roofing team" data-vi-alt="Đội ngũ Urena Roofing" class="ur-lightbox__img">
       <div class="ur-lightbox__caption">
-        <p class="ur-lightbox__eyebrow" data-en="Licensed &amp; on-site" data-es="Con Licencia y en Obra">Licensed &amp; on-site</p>
-        <p class="ur-lightbox__body" data-en="The crew behind every Urena Roofing project, from first inspection to final walkthrough." data-es="El equipo detrás de cada proyecto de Ureña Roofing, desde la primera inspección hasta el recorrido final.">The crew behind every Urena Roofing project, from first inspection to final walkthrough.</p>
+        <p class="ur-lightbox__eyebrow" data-en="Licensed &amp; on-site" data-es="Con Licencia y en Obra" data-vi="Có Giấy Phép &amp; Có Mặt Tại Công Trình">Licensed &amp; on-site</p>
+        <p class="ur-lightbox__body" data-en="The crew behind every Urena Roofing project, from first inspection to final walkthrough." data-es="El equipo detrás de cada proyecto de Ureña Roofing, desde la primera inspección hasta el recorrido final." data-vi="Đội ngũ đứng sau mỗi dự án của Urena Roofing, từ lần kiểm tra đầu tiên đến khi bàn giao hoàn tất.">The crew behind every Urena Roofing project, from first inspection to final walkthrough.</p>
       </div>
     </div>
   </div>

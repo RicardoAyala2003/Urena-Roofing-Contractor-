@@ -129,6 +129,14 @@ function getBotResponse(input) {
     );
   }
 
+  // Brochure / PDF Download
+  if (lower.includes("brochure") || lower.includes("pdf") || lower.includes("download")) {
+    return createBotMessage(
+      "Here's our brochure — a quick overview of our services, licensing, and service areas. Free to download.",
+      [{ label: "Download Brochure (PDF)", href: BROCHURE_LINK, download: true }, { label: "Get Free Estimate", href: ESTIMATE_LINK }]
+    );
+  }
+
   // Gallery / Before & After
   if (lower.includes("gallery") || lower.includes("before") || lower.includes("after") || lower.includes("projects") || lower.includes("work") || lower.includes("photos") || lower.includes("pictures") || lower.includes("real roofs")) {
     return createBotMessage(
@@ -175,6 +183,7 @@ function UrenaRoofingChatbot() {
     { text: "HB2102 Compliance", icon: "⚖️" },
     { text: "Service Areas", icon: "📍" },
     { text: "HOA Programs", icon: "🏘️" },
+    { text: "Download Brochure", icon: "📄" },
   ], []);
 
   // Mensaje de bienvenida al abrir

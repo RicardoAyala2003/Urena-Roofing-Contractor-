@@ -36,8 +36,8 @@ get_header(); ?>
     <div class="ur-reveal-up mx-auto max-w-3xl px-4">
 
       <p class="ur-legal-lead">
-        These Terms of Service ("Terms") govern your use of this website, operated by <span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC">Urena Roofing
-        Contractor LLC</span> ("<span data-en="Urena Roofing" data-es="Ureña Roofing">Urena Roofing</span>," "we," "us," or "our"). By using this website, you agree to
+        These Terms of Service ("Terms") govern your use of this website, operated by <span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC" data-vi="Urena Roofing Contractor LLC">Urena Roofing
+        Contractor LLC</span> ("<span data-en="Urena Roofing" data-es="Ureña Roofing" data-vi="Urena Roofing">Urena Roofing</span>," "we," "us," or "our"). By using this website, you agree to
         these Terms.
       </p>
 
@@ -65,7 +65,7 @@ get_header(); ?>
 
       <h2>4. Texas Roofing Law (HB2102) Compliance</h2>
       <p>
-        <span data-en="Urena Roofing Contractor" data-es="Ureña Roofing Contractor">Urena Roofing Contractor</span> operates in full compliance with Texas House Bill 2102. We do not,
+        <span data-en="Urena Roofing Contractor" data-es="Ureña Roofing Contractor" data-vi="Urena Roofing Contractor">Urena Roofing Contractor</span> operates in full compliance with Texas House Bill 2102. We do not,
         and will not, offer to waive, pay, or rebate any portion of a homeowner's insurance
         deductible. Any representation on this website should be understood in that context.
       </p>
@@ -73,7 +73,7 @@ get_header(); ?>
       <h2>5. Intellectual Property</h2>
       <p>
         The content on this website — including text, photos, graphics, and logos — is owned by
-        <span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC">Urena Roofing Contractor LLC</span> or its licensors and is protected by applicable intellectual
+        <span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC" data-vi="Urena Roofing Contractor LLC">Urena Roofing Contractor LLC</span> or its licensors and is protected by applicable intellectual
         property laws. You may not reproduce or reuse this content without our written permission.
       </p>
 
@@ -94,7 +94,7 @@ get_header(); ?>
 
       <h2>8. Limitation of Liability</h2>
       <p>
-        To the fullest extent permitted by law, <span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC">Urena Roofing Contractor LLC</span> will not be liable for
+        To the fullest extent permitted by law, <span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC" data-vi="Urena Roofing Contractor LLC">Urena Roofing Contractor LLC</span> will not be liable for
         any indirect, incidental, or consequential damages arising from your use of this website.
       </p>
 
@@ -107,7 +107,7 @@ get_header(); ?>
       <h2>11. Contact Us</h2>
       <p>Questions about these Terms can be directed to:</p>
       <ul class="ur-legal-contact">
-        <li><span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC">Urena Roofing Contractor LLC</span></li>
+        <li><span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC" data-vi="Urena Roofing Contractor LLC">Urena Roofing Contractor LLC</span></li>
         <li>3648 Cypress Creek Pkwy Ste 225, Houston, TX 77068, United States</li>
         <li>Phone: <a href="tel:+18327392842">(832) 739-2842</a> / <a href="tel:+13464046431">(346) 404-6431</a></li>
         <li>Email: <a href="mailto:info@urenaroofing.com">info@urenaroofing.com</a></li>

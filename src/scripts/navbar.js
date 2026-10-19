@@ -1,7 +1,7 @@
 /**
  * navbar.js — Ureña Roofing Contractor
  * Maneja: navbar sticky/scrolled, mega-menu de Services (desktop + mobile),
- * menú mobile (hamburguesa), y el toggle de idioma EN/ES (cookie).
+ * menú mobile (hamburguesa), y el selector de idioma EN/ES/VI (cookie).
  */
 
 function initStickyNav() {
@@ -95,33 +95,39 @@ function initMobileMenu() {
 }
 
 /**
- * Toggle de idioma EN/ES — guarda la preferencia en cookie (365 días),
- * refleja el estado visual del botón, y swapea el texto de cualquier
- * elemento con atributos data-en/data-es (nav desktop + mobile).
+ * Selector de idioma EN/ES/VI — guarda la preferencia en cookie (365 días),
+ * refleja el estado visual de los botones (desktop + mobile, ambos comparten
+ * la clase js-ur-lang-btn), y swapea el texto de cualquier elemento con
+ * atributos data-en/data-es/data-vi.
  */
+function pickLangText(lang, en, es, vi) {
+  if (lang === "es") return es;
+  if (lang === "vi") return vi;
+  return en;
+}
+
 function applyTranslations(lang) {
   document.querySelectorAll("[data-en]").forEach((el) => {
-    const text = lang === "es" ? el.dataset.es : el.dataset.en;
+    const text = pickLangText(lang, el.dataset.en, el.dataset.es, el.dataset.vi);
     if (text) el.innerHTML = text;
   });
   // Igual que arriba pero para atributos (alt, aria-label) que no aceptan
   // HTML — se usan para cosas como "Urena"/"Ureña" en logos e íconos.
   document.querySelectorAll("[data-en-alt]").forEach((el) => {
-    const text = lang === "es" ? el.dataset.esAlt : el.dataset.enAlt;
+    const text = pickLangText(lang, el.dataset.enAlt, el.dataset.esAlt, el.dataset.viAlt);
     if (text) el.setAttribute("alt", text);
   });
   document.querySelectorAll("[data-en-aria]").forEach((el) => {
-    const text = lang === "es" ? el.dataset.esAria : el.dataset.enAria;
+    const text = pickLangText(lang, el.dataset.enAria, el.dataset.esAria, el.dataset.viAria);
     if (text) el.setAttribute("aria-label", text);
   });
 }
 
 function initLanguageToggle() {
-  const btn = document.querySelector(".js-ur-lang-toggle");
-  if (!btn) return;
-
-  const enLabel = btn.querySelector(".js-ur-lang-en");
-  const esLabel = btn.querySelector(".js-ur-lang-es");
+  // Puede haber más de una instancia en el DOM (barra desktop + drawer mobile);
+  // todas comparten esta clase y cada botón lleva su idioma en data-lang.
+  const buttons = document.querySelectorAll(".js-ur-lang-btn");
+  if (!buttons.length) return;
 
   const getCookie = (name) => {
     const match = document.cookie.match(new RegExp("(?:^|; )" + name + "=([^;]*)"));
@@ -136,18 +142,19 @@ function initLanguageToggle() {
   const applyState = (lang) => {
     document.documentElement.setAttribute("data-lang", lang);
     document.documentElement.lang = lang;
-    enLabel.classList.toggle("is-active", lang === "en");
-    esLabel.classList.toggle("is-active", lang === "es");
+    buttons.forEach((btn) => btn.classList.toggle("is-active", btn.dataset.lang === lang));
     applyTranslations(lang);
   };
 
   const current = getCookie("ur_lang") || "en";
   applyState(current);
 
-  btn.addEventListener("click", () => {
-    const next = document.documentElement.getAttribute("data-lang") === "en" ? "es" : "en";
-    setCookie("ur_lang", next);
-    applyState(next);
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const lang = btn.dataset.lang;
+      setCookie("ur_lang", lang);
+      applyState(lang);
+    });
   });
 }
 

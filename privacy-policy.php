@@ -37,7 +37,7 @@ get_header(); ?>
     <div class="ur-reveal-up mx-auto max-w-3xl px-4">
 
       <p class="ur-legal-lead">
-        <span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC">Urena Roofing Contractor LLC</span> ("<span data-en="Urena Roofing" data-es="Ureña Roofing">Urena Roofing</span>," "we," "us," or "our") respects your privacy.
+        <span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC" data-vi="Urena Roofing Contractor LLC">Urena Roofing Contractor LLC</span> ("<span data-en="Urena Roofing" data-es="Ureña Roofing" data-vi="Urena Roofing">Urena Roofing</span>," "we," "us," or "our") respects your privacy.
         This Privacy Policy explains what information we collect through this website, how we use it,
         and the choices you have.
       </p>
@@ -109,7 +109,7 @@ get_header(); ?>
       <h2>10. Contact Us</h2>
       <p>If you have questions about this Privacy Policy, contact us:</p>
       <ul class="ur-legal-contact">
-        <li><span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC">Urena Roofing Contractor LLC</span></li>
+        <li><span data-en="Urena Roofing Contractor LLC" data-es="Ureña Roofing Contractor LLC" data-vi="Urena Roofing Contractor LLC">Urena Roofing Contractor LLC</span></li>
         <li>3648 Cypress Creek Pkwy Ste 225, Houston, TX 77068, United States</li>
         <li>Phone: <a href="tel:+18327392842">(832) 739-2842</a> / <a href="tel:+13464046431">(346) 404-6431</a></li>
         <li>Email: <a href="mailto:info@urenaroofing.com">info@urenaroofing.com</a></li>

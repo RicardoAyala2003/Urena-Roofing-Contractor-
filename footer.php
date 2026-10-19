@@ -43,6 +43,11 @@
     ['label' => 'Contact',       'label_es' => 'Contacto',         'label_vi' => 'Liên Hệ',          'link' => '/contact'],
   ];
 
+  $ur_financing_links = [
+    ['label' => 'Apply with GoodLeap',        'label_es' => 'Solicitar con GoodLeap',        'label_vi' => 'Đăng Ký với GoodLeap',        'link' => 'https://www.goodleap.dev/urenaroofingandcontractorllc/2962df91-70cc-4688-84c4-0f55df0135c6'],
+    ['label' => 'Apply with Service Finance', 'label_es' => 'Solicitar con Service Finance', 'label_vi' => 'Đăng Ký với Service Finance', 'link' => 'https://apply.svcfin.com/home/dealerAuthentication?id=815134733&key=1742219857'],
+  ];
+
   $ur_licenses = [
     ['en' => 'General Cleaning License', 'es' => 'Licencia General de Limpieza',        'vi' => 'Giấy Phép Vệ Sinh Tổng Quát'],
     ['en' => 'Liability Insurance',      'es' => 'Seguro de Responsabilidad Civil',      'vi' => 'Bảo Hiểm Trách Nhiệm'],
@@ -76,6 +81,13 @@
         <ul class="ur-footer__list">
           <?php foreach ($ur_quick_links as $l) : ?>
             <li><a href="<?php echo esc_url(home_url($l['link'])); ?>"><span data-en="<?php echo esc_attr($l['label']); ?>" data-es="<?php echo esc_attr($l['label_es']); ?>" data-vi="<?php echo esc_attr($l['label_vi']); ?>"><?php echo esc_html($l['label']); ?></span></a></li>
+          <?php endforeach; ?>
+        </ul>
+
+        <p class="ur-footer__heading ur-footer__heading--sub"><span data-en="Financing" data-es="Financiamiento" data-vi="Tài Chính">Financing</span></p>
+        <ul class="ur-footer__list">
+          <?php foreach ($ur_financing_links as $f) : ?>
+            <li><a href="<?php echo esc_url($f['link']); ?>" target="_blank" rel="noopener noreferrer"><span data-en="<?php echo esc_attr($f['label']); ?>" data-es="<?php echo esc_attr($f['label_es']); ?>" data-vi="<?php echo esc_attr($f['label_vi']); ?>"><?php echo esc_html($f['label']); ?></span></a></li>
           <?php endforeach; ?>
         </ul>
       </div>

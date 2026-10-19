@@ -391,7 +391,7 @@ get_header(); ?>
   </section>
 
   <!-- ============================================================ -->
-  <!-- FINANCING CTA — cinta angosta, link externo a GoodLeap        -->
+  <!-- FINANCING CTA — cinta angosta, links externos a GoodLeap y Service Finance        -->
   <!-- ============================================================ -->
   <section class="ur-financing relative isolate overflow-hidden">
     <span class="ur-financing__shine" aria-hidden="true"></span>
@@ -400,12 +400,17 @@ get_header(); ?>
         <span class="ur-financing__icon relative flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-[#12103A]/10 text-[#12103A]"><?php echo $icon('credit-card', 'h-5 w-5'); ?></span>
         <div>
           <p class="text-sm font-black uppercase tracking-[0.06em] text-[#12103A]" data-en="Financing Available" data-es="Financiamiento Disponible" data-vi="Có Hỗ Trợ Tài Chính">Financing Available</p>
-          <p class="text-sm text-[#12103A]/80" data-en="Flexible payment plans for your roofing project. Get pre-qualified in minutes with GoodLeap." data-es="Planes de pago flexibles para tu proyecto de techado — precalifica en minutos con GoodLeap." data-vi="Các gói thanh toán linh hoạt cho dự án lợp mái của quý vị — đủ điều kiện sơ bộ chỉ trong vài phút với GoodLeap.">Flexible payment plans for your roofing project. Get pre-qualified in minutes with GoodLeap.</p>
+          <p class="text-sm text-[#12103A]/80" data-en="Flexible payment plans for your roofing project. Get pre-qualified in minutes with GoodLeap or Service Finance." data-es="Planes de pago flexibles para tu proyecto de techado — precalifica en minutos con GoodLeap o Service Finance." data-vi="Các gói thanh toán linh hoạt cho dự án lợp mái của quý vị — đủ điều kiện sơ bộ chỉ trong vài phút với GoodLeap hoặc Service Finance.">Flexible payment plans for your roofing project. Get pre-qualified in minutes with GoodLeap or Service Finance.</p>
         </div>
       </div>
-      <a href="https://www.goodleap.dev/urenaroofingandcontractorllc/2962df91-70cc-4688-84c4-0f55df0135c6" target="_blank" rel="noopener noreferrer" class="ur-financing__cta ur-reveal-right ur-btn ur-btn-dark ur-magnetic inline-flex flex-shrink-0 items-center justify-center gap-2 px-6 py-3 text-sm font-black uppercase tracking-[0.1em] text-white">
-        <span data-en="Apply for Financing" data-es="Solicitar Financiamiento" data-vi="Đăng Ký Tài Trợ">Apply for Financing</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
-      </a>
+      <div class="ur-reveal-right flex flex-shrink-0 flex-wrap items-center justify-center gap-3">
+        <a href="https://www.goodleap.dev/urenaroofingandcontractorllc/2962df91-70cc-4688-84c4-0f55df0135c6" target="_blank" rel="noopener noreferrer" class="ur-financing__cta ur-btn ur-btn-dark ur-magnetic inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-black uppercase tracking-[0.1em] text-white">
+          <span data-en="Apply with GoodLeap" data-es="Solicitar con GoodLeap" data-vi="Đăng Ký với GoodLeap">Apply with GoodLeap</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
+        </a>
+        <a href="https://apply.svcfin.com/home/dealerAuthentication?id=815134733&amp;key=1742219857" target="_blank" rel="noopener noreferrer" class="ur-financing__cta ur-financing__cta--alt ur-btn ur-magnetic inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-black uppercase tracking-[0.1em] text-[#12103A]">
+          <span data-en="Apply with Service Finance" data-es="Solicitar con Service Finance" data-vi="Đăng Ký với Service Finance">Apply with Service Finance</span> <?php echo $icon('arrow', 'h-4 w-4'); ?>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -1011,6 +1016,8 @@ get_header(); ?>
   }
 
   .ur-financing .ur-btn-dark:hover{ background:var(--ur-navy-2); }
+  .ur-financing__cta--alt{ background:rgba(255,255,255,.35); border-color:rgba(18,16,58,.55); }
+  .ur-financing__cta--alt:hover{ background:var(--ur-navy); border-color:var(--ur-navy); color:#fff; }
   .ur-financing__cta svg{ transition:transform .3s cubic-bezier(.16,1,.3,1); }
   .ur-financing__cta:hover svg{ transform:translateX(4px); }
 

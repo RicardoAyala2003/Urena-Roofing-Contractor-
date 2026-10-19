@@ -231,6 +231,7 @@ body.admin-bar .ur-nav{ top:32px; }
 .ur-footer__social-chip:hover{ background:var(--ur-gold); border-color:var(--ur-gold); color:var(--ur-navy); transform:translateY(-2px); }
 
 .ur-footer__heading{ font-family:'IBM Plex Mono',monospace; font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ur-gold); }
+.ur-footer__heading--sub{ margin-top:2rem; }
 .ur-footer__list{ list-style:none; margin:1.1rem 0 0; padding:0; display:flex; flex-direction:column; gap:.65rem; }
 .ur-footer__list a{ font-size:.88rem; font-weight:600; color:rgba(255,255,255,.78); text-decoration:none; transition:color .2s ease, padding-left .2s ease; }
 .ur-footer__list a:hover{ color:var(--ur-gold); padding-left:.25rem; }
